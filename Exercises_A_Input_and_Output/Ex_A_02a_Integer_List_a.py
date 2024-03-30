@@ -9,8 +9,8 @@ for Astri in Astr:
     Aint.append(int(Astri))
 
 S = ''  # string
-for i in range(N):
-    S += str(Aint[i]) + ', '
+for Ainti in Aint:
+    S += str(Ainti) + ', '
 print(S)
 
 # =========================================================
