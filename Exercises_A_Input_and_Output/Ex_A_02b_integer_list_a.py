@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling
-## Ex_A_02b_integer_iist_a.py:: map(), *list
+## Ex_A_02b_integer_list_a.py:: map(), *list
 
 N = int(input())
 A = list(map(int, input().split()))  # list of integers

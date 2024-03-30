@@ -69,11 +69,11 @@ N個の整数を考えます。
 ```
 
 >解答例：
->- [Ex_A_01_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02_integer_list_a.py)
+>- [Ex_A_02_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02_integer_list_a.py)
 >  - split(), list()
->- [Ex_A_01a_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02a_integer_list_a.py)
+>- [Ex_A_02a_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02a_integer_list_a.py)
 >  - input().split(), append() 
->- [Ex_A_01b_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02b_integer_list_b.py)
+>- [Ex_A_02b_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02b_integer_list_a.py)
 >  - map(), *list
 
 

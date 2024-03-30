@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling
-## Ex_A_02a_integer_lList_a.py:: input().split(), append()
+## Ex_A_02a_integer_list_a.py:: input().split(), append()
 
 N = int(input())
 Astr = list(input().split())  # list of strings
