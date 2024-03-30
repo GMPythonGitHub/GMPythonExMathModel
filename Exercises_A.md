@@ -59,19 +59,22 @@ N個の整数を考えます。
 ```
 --- list of input lines ---
 [Case a]
-4 5 3 0 2 1 
+10
+8 4 9 5 3 6 0 2 7 1 
 
 [Case b]
+6
 100 130 110 140 150 120
+
 ```
 
 >解答例：
->- [Ex_A_01_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01_integers.py)
->  - input().split()
->- [Ex_A_01a_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01a_integers.py)
->  - map() 
->- [Ex_A_01b_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01a_integers.py)
->  - map() 
+>- [Ex_A_01_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02_integer_list_a.py)
+>  - split(), list()
+>- [Ex_A_01a_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02a_integer_list_a.py)
+>  - input().split(), append() 
+>- [Ex_A_01b_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02b_integer_list_b.py)
+>  - map(), *list
 
 
 
