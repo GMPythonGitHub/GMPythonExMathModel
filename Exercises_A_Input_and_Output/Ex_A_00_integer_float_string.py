@@ -1,6 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling
-## Ex_A: Input and Output
-## Ex_A_00.py
+## Ex_A_00_integer_float_string.py:: input(), int(), float(), print
 
 A = int(input())
 B = float(input())
