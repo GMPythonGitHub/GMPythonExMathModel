@@ -20,9 +20,9 @@ abc de
 ３行をターミナルウィンドウに張り付けることによって入力します。
 
 >解答例：
->- [ExMM_A_00_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_00_integer_float_string.py)
+>- [ExMM_A_00_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_00_integer_float_string.py)
 >  - input(), int(), float(), print()
->- [ExMM_A_00a_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_00a_integer_float_string.py)
+>- [ExMM_A_00a_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_00a_integer_float_string.py)
 >  - f-string 
 
 
@@ -43,9 +43,9 @@ abc de
 ```
 
 >解答例：
->- [ExMM_A_01_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_01_integers.py)
+>- [ExMM_A_01_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_01_integers.py)
 >  - input(), int(), float(), print()
->- [ExMM_A_01a_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_01a_integers.py)
+>- [ExMM_A_01a_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_01a_integers.py)
 >  - map(), f-string 
 
 ## ExMM_A_02: integer_list_a
@@ -69,11 +69,11 @@ N個の整数を考えます。
 ```
 
 >解答例：
->- [ExMM_A_02_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_02_integer_list_a.py)
+>- [ExMM_A_02_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_02_integer_list_a.py)
 >  - split(), list()
->- [ExMM_A_02a_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_02a_integer_list_a.py)
+>- [ExMM_A_02a_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_02a_integer_list_a.py)
 >  - input().split(), append() 
->- [ExMM_A_02b_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_02b_integer_list_a.py)
+>- [ExMM_A_02b_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_02b_integer_list_a.py)
 >  - map(), *list
 
 
