@@ -43,9 +43,9 @@ abc de
 ```
 
 >解答例：
->- [Ex_A_01_Integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01_Integers.py)
+>- [Ex_A_01_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01_integers.py)
 >  - input(), int(), float(), print()
->- [Ex_A_01a_Integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01a_Integers.py)
+>- [Ex_A_01a_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01a_integers.py)
 >  - map(), f-string 
 
 ## Ex_A_02: integer_list_a
