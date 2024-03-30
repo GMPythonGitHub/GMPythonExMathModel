@@ -26,7 +26,7 @@ abc de
 >  - f-string 
 
 
-## Ex_A_01: Integers
+## Ex_A_01: integers
 ６個の整数 (A
 <sub>1</sub>, A
 <sub>2</sub>...，A
@@ -48,9 +48,9 @@ abc de
 >- [Ex_A_01a_Integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01a_Integers.py)
 >  - map(), f-string 
 
-## Ex_A_02: Integer_List_a
+## Ex_A_02: integer_list_a
 N個の整数を考えます。
-整数の個数Nを最初の行で，続いての整数 (A
+整数の個数Nが最初の行で，続いての整数 (A
 <sub>1</sub>, A
 <sub>2</sub>...，A
 <sub>N</sub>) が空白`' '`で区切られてN行で与えられます。これらを読み取り，整数型の`list`に変換します。 
@@ -66,9 +66,11 @@ N個の整数を考えます。
 ```
 
 >解答例：
->- [Ex_A_01_Integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01_Integers.py)
->  - input(), int(), float(), print()
->- [Ex_A_01a_Integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01a_Integers.py)
+>- [Ex_A_01_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01_integers.py)
+>  - input().split()
+>- [Ex_A_01a_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01a_integers.py)
+>  - map() 
+>- [Ex_A_01b_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01a_integers.py)
 >  - map() 
 
 

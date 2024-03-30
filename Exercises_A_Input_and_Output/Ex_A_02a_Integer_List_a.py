@@ -1,17 +1,17 @@
 ## GMPython Exercises for Mathematical Modeling
-## Ex_A_02_Integer_List_a.py:: list(), split()
+## Ex_A_02a_Integer_List_a.py:: input().split(), append()
 
 N = int(input())
-S = input()  # string
-Astr = list(S.split())  # list of strings
+Astr = list(input().split())  # list of strings
 
-Aint = [None] * N  # list of integers
-for i in range(N):
-    Aint[i] = int(Astr[i])
+Aint = []  # list of integers
+for Astri in Astr:
+    Aint.append(int(Astri))
 
+S = ''  # string
 for i in range(N):
-    print(Aint[i], end=', ')
-print()
+    S += str(Aint[i]) + ', '
+print(S)
 
 # =========================================================
 # *** list of input lines ***
