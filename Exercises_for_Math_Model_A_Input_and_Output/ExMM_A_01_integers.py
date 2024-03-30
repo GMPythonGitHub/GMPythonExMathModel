@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling
-## Ex_A_00_integers.py:: input().split()
+## ExMM_A_00_integers.py:: input().split()
 
 A1, A2, A3, A4, A5, A6 = input().split()  # string
 A1 = int(A1)  # string to integer

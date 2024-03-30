@@ -1,20 +1,17 @@
 ## GMPython Exercises for Mathematical Modeling
-## Ex_A_02b_integer_list_a.py:: map(), *list
+## ExMM_A_00a_integers.py:: map()
 
-N = int(input())
-A = list(map(int, input().split()))  # list of integers
+A1, A2, A3, A4, A5, A6 = map(int, input().split())
 
-print(*A, sep=', ')
+print(A1, A2, A3, A4, A5, A6, sep=', ')
 
 # =========================================================
 # *** list of input lines ***
 '''
 [Case a]
-10
-8 4 9 5 3 6 0 2 7 1 
+4 5 3 0 2 1 
 
 [Case b]
-6
 100 130 110 140 150 120
 
 '''

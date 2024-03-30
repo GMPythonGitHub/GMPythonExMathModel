@@ -1,7 +1,7 @@
-# **Exercises A: input and output**
+# **Exercises for Math Model A: input and output**
 ### 数値や文字列データの入出力に関する演習問題です。
 
-## Ex_A_00: integer，float, and string
+## ExMM_A_00: integer，float, and string
 整数Aと実数B，文字列Cがそれぞれ１行ごとに与えられます。これらを関数`input()`を用いて入力し，さらに変数に変換します。 
 それらを`print()`を用いて１行毎に出力して下さい。
 
@@ -20,13 +20,13 @@ abc de
 ３行をターミナルウィンドウに張り付けることによって入力します。
 
 >解答例：
->- [Ex_A_00_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_00_integer_float_string.py)
+>- [ExMM_A_00_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_00_integer_float_string.py)
 >  - input(), int(), float(), print()
->- [Ex_A_00a_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_00a_integer_float_string.py)
+>- [ExMM_A_00a_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_00a_integer_float_string.py)
 >  - f-string 
 
 
-## Ex_A_01: integers
+## ExMM_A_01: integers
 ６個の整数 (A
 <sub>1</sub>, A
 <sub>2</sub>...，A
@@ -43,12 +43,12 @@ abc de
 ```
 
 >解答例：
->- [Ex_A_01_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01_integers.py)
+>- [ExMM_A_01_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_01_integers.py)
 >  - input(), int(), float(), print()
->- [Ex_A_01a_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_01a_integers.py)
+>- [ExMM_A_01a_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_01a_integers.py)
 >  - map(), f-string 
 
-## Ex_A_02: integer_list_a
+## ExMM_A_02: integer_list_a
 N個の整数を考えます。
 整数の個数Nが最初の行で，続いての整数 (A
 <sub>1</sub>, A
@@ -69,11 +69,11 @@ N個の整数を考えます。
 ```
 
 >解答例：
->- [Ex_A_02_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02_integer_list_a.py)
+>- [ExMM_A_02_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_02_integer_list_a.py)
 >  - split(), list()
->- [Ex_A_02a_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02a_integer_list_a.py)
+>- [ExMM_A_02a_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_02a_integer_list_a.py)
 >  - input().split(), append() 
->- [Ex_A_02b_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/Ex_A_02b_integer_list_a.py)
+>- [ExMM_A_02b_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_A_Input_and_Output/ExMM_A_02b_integer_list_a.py)
 >  - map(), *list
 
 

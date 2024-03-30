@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling
-## Ex_A_02_integer_list_a.py:: split(), list()
+## ExMM_A_02_integer_list_a.py:: split(), list()
 
 N = int(input())
 S = input()  # string
