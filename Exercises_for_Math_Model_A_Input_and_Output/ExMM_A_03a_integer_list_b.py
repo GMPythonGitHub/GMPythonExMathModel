@@ -1,9 +1,10 @@
-## GMPython Exercises for Mathematical Modeling
-## ExMM_A_02_integer_list_a.py:: split(), list()
+## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
+## ExMM_A_03a_integer_list_b.py::
 
 N = int(input())
-S = input()  # string
-Astr = list(S.split())  # list of strings
+Astr = [None] * N  # list of strings
+for i in range(N):
+    Astr[i] = input()
 
 Aint = [None] * N  # list of integers
 for i in range(N):
@@ -18,11 +19,25 @@ print()
 '''
 [Case a]
 10
-8 4 9 5 3 6 0 2 7 1 
+8 
+4 
+9 
+5 
+3 
+6 
+0 
+2 
+7 
+1 
 
 [Case b]
 6
-100 130 110 140 150 120
+100 
+130 
+110 
+140 
+150 
+120
 
 '''
 

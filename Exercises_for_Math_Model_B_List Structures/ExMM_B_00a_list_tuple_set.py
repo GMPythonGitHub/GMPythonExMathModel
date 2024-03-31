@@ -1,17 +1,20 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_A_02a_integer_list_a.py:: split(), list()
+## ExMM_B_00a_list_tuple_set.py:: list(), tuple(), set()
 
 N = int(input())
 S = input()  # string
-Astr = list(S.split())  # list of strings
 
-Aint = [None] * N  # list of integers
+strA = list(S.split())
+lstA = []  # list of strings
 for i in range(N):
-    Aint[i] = int(Astr[i])
+    lstA.append(int(strA[i]))
+print(f'{lstA = }')
 
-for i in range(N):
-    print(Aint[i], end=', ')
-print()
+tplA = tuple(lstA)
+print(f'{tplA = }')
+
+setA = set(lstA)
+print(f'{setA = }')
 
 # =========================================================
 # *** list of input lines ***
@@ -21,8 +24,8 @@ print()
 8 4 9 5 3 6 0 2 7 1 
 
 [Case b]
-6
-100 130 110 140 150 120
+10
+5 2 0 4 3 5 1 0 5 2
 
 '''
 

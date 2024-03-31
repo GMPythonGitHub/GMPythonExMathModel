@@ -1,23 +1,26 @@
-# **Exercises for Math Model A: input and output**
-### 数値や文字列データの入出力に関する演習問題です。
+# **Exercises for Math Model B: list structures**
+### リスト構造 (list, tuple, set, dictionary) の操作に関する演習問題です。
 
-## ExMM_A_00: integer，float, and string
-整数Aと実数B，文字列Cがそれぞれ１行ごとに与えられます。これらを関数`input()`を用いて入力し，さらに変数に変換します。 
-それらを`print()`を用いて１行毎に表示して下さい。
+## ExMM_B_00: list, tuple, set()
+N個の整数を考えます。
+整数の個数Nが最初の行で，続いての整数 (x
+<sub>1</sub>, x
+<sub>2</sub>...，x
+<sub>N</sub>) が空白`' '`で区切られて１行で与えられます。これらを読み取り，整数型の`list`に変換します。さらに，その`list`を`tuple`と`set`に変換します。 
+これら３種類のリスト構造を`関数 print()`で表示しなさい。
 
 ```
 --- list of input lines ---
 [Case a]
-12345
-123.45
-abcde
+10
+8 4 9 5 3 6 0 2 7 1 
 
 [Case b]
-1234500000
-0.00012345
-abc de
+10
+5 2 0 4 3 5 1 0 5 2
+
 ```
-３行をターミナルウィンドウに張り付けることによって入力します。
+
 
 >解答例：
 >- [ExMM_A_00_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_00_integer_float_string.py)

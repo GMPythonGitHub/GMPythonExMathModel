@@ -1,8 +1,8 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_A_02b_integer_list_a.py:: input().split(), append()
+## ExMM_A_03b_integer_list_b.py:: list comprehension, append()
 
 N = int(input())
-Astr = list(input().split())  # list of strings
+Astr = [input() for _ in range(N)]  # list strings: comprehension
 
 Aint = []  # list of integers
 for Astri in Astr:
@@ -18,11 +18,25 @@ print(S)
 '''
 [Case a]
 10
-8 4 9 5 3 6 0 2 7 1 
+8 
+4 
+9 
+5 
+3 
+6 
+0 
+2 
+7 
+1 
 
 [Case b]
 6
-100 130 110 140 150 120
+100 
+130 
+110 
+140 
+150 
+120
 
 '''
 
