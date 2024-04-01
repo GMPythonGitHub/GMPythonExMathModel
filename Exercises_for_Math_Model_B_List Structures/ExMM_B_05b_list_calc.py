@@ -1,20 +1,13 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_B_05a_list_calc.py:: absolute, aquare
+## ExMM_B_05a_list_calc.py:: absolute, square
 
 N = int(input())
 A = list(map(int, input().split()))  # list
 
 # absolute
-absA = []
-for Ai in A:
-    if Ai >= 0:
-        absA.append(Ai)
-    else:
-        absA.append(-Ai)
+absA = [Ai if Ai >= 0 else -Ai for Ai in A]
 
-sqrA = []
-for Ai in A:
-    sqrA.append(Ai*Ai)
+sqrA = [Ai*Ai for Ai in A]
 
 print(f'{A = }\n{absA = }\n{sqrA = } ')
 
