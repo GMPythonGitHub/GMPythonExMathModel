@@ -1,22 +1,16 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_B_05a_list_calc.py:: absolute, aquare
+## ExMM_B_02a_list_len_sum.py::
 
 N = int(input())
 A = list(map(int, input().split()))  # list
 
 # absolute
-absA = []
-for Ai in A:
-    if Ai >= 0:
-        absA.append(Ai)
-    else:
-        absA.append(-Ai)
+B = A.copy()
+lenB = len(B)
+for i in range(1, lenB, 2):
+    B[i-1], B[i] = B[i], B[i-1]
 
-sqrA = []
-for Ai in A:
-    sqrA.append(Ai*Ai)
-
-print(f'{A = }\n{absA = }\n{sqrA = } ')
+print(f'{A = }\n{B = } ')
 
 # =========================================================
 # *** list of input lines ***
