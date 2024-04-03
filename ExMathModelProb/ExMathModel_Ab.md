@@ -2,50 +2,66 @@
 #### 数値や文字列データの入出力に関する演習問題です。
 
 ### ExMM_A_00: integer，float, and string
-整数Aと実数B，文字列Cがそれぞれ１行ごとに与えられます。これらを関数`input()`を用いて入力し，さらに変数に変換します。 
-それらを`print()`を用いて１行毎に表示して下さい。
+整数Aと実数B，文字列Cが１行ごとに与えられます。
 
-```
---- list of input lines ---
-[Case a]  copy the following sentences to 'execution window'
+関数`input()`を用いて読み取り，さらに変数に変換します。 
+`print()`を用いて１行ごとに表示して下さい。
+
+<details>
+<summary>Input lines</summary>
+
+``` python
+[Case a]  Copy the following sentences to 'execution window'
 12345
 123.45
 abcde
 
-[Case b]  copy the following sentences to 'execution window'
+[Case b]  Copy the following sentences to 'execution window'
 1234500000
 0.00012345
 abc de
 ```
-柱: プログラムを実行後に，入力リストを実行ウィンドウに張り付けます。
+注: プログラム実行後に，実行ウィンドウに張り付けます。
 
->解答例：
+</details>
+
+
+>解答例
 >- [ExMM_A_00a_integer_float_string](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_00a_integer_float_string.py)
 >  - input(), int(), float(), print()
 >- [ExMM_A_00b_integer_float_string](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_00b_integer_float_string.py)
 >  - f-string 
 
+
 ### ExMM_A_01: integers
 ６個の整数 (A
 <sub>1</sub>, A
 <sub>2</sub>...，A
-<sub>6</sub>) が空白`' '`で区切られて１行で与えられます。これらを読み取り，整数型変数に変換します。 
-それらをカンマと空白`, `で区切り，１行で表示して下さい。
+<sub>6</sub>) を空白`' '`で区切り１行で与えられます。
 
-```
---- list of input lines ---
-[Case a]
+読み取り，整数型変数に変換します。 
+カンマと空白`, `で区切り，１行で表示します。
+
+<details>
+<summary>Input lines</summary>
+
+``` python
+[Case a]  Copy the following sentences to 'execution window'
 4 5 3 0 2 1 
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window'
 100 130 110 140 150 120
 ```
+注: プログラム実行後に，実行ウィンドウに張り付けます。
+
+</details>
 
 >解答例：
 >- [ExMM_A_01_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_01_integers.py)
 >  - input(), int(), float(), print()
 >- [ExMM_A_01a_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_01a_integers.py)
 >  - map(), f-string 
+
 
 ### ExMM_A_02: integer_list_a
 N個の整数を考えます。
