@@ -1,12 +1,6 @@
 # **Exercises for Math Model A: input and output**
 #### 数値や文字列データの入出力に関する演習問題です。
 
-[ExMM_A_00: integer，float, and string](#ExMM_A_00)
-
-[ExMM_A_01: integers](#ExMM_A_01)
-
-<div id="ExMM_A_00"></div>
-
 ### ExMM_A_00: integer，float, and string
 整数Aと実数B，文字列Cがそれぞれ１行ごとに与えられます。これらを関数`input()`を用いて入力し，さらに変数に変換します。 
 それらを`print()`を用いて１行毎に表示して下さい。
@@ -31,8 +25,6 @@ abc de
 >- [ExMM_A_00b_integer_float_string](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_00b_integer_float_string.py)
 >  - f-string 
 
-<div id="ExMM_A_01"></div>
-
 ### ExMM_A_01: integers
 ６個の整数 (A
 <sub>1</sub>, A
@@ -55,7 +47,7 @@ abc de
 >- [ExMM_A_01a_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_01a_integers.py)
 >  - map(), f-string 
 
-## ExMM_A_02: integer_list_a
+### ExMM_A_02: integer_list_a
 N個の整数を考えます。
 整数の個数Nが最初の行で，続いての整数 (A
 <sub>1</sub>, A
