@@ -102,13 +102,70 @@ A1 A2 ... AN
 
 >Sample programs
 >
-> a. [ExMM_A_02a_integers](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_02a_integer_list_a.py)
+> a. [ExMM_A_02a_integer_list_a](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_02a_integer_list_a.py)
 >    //  split(), list()
 > 
-> b. [ExMM_A_02b_integers](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_02b_integer_list_a.py)
+> b. [ExMM_A_02b_integer_list_a](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_02b_integer_list_a.py)
 >    //  input().split(), append() 
 > 
-> b. [ExMM_A_02b_integers](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_02c_integer_list_a.py)
+> b. [ExMM_A_02c_integer_list_a](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_02c_integer_list_c.py)
+>    //  map(), *list 
+
+
+### ExMM_A_03: integer_list_b
+N個の整数を考えます。
+整数の個数 $N$ が最初の行で，整数 $(A_1，A_2, ... A_N)$ が空白で区切られて続く $N$ 行で与えられます。
+
+読み取り，整数型の`list`に変換します。 
+すべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
+
+<details>
+<summary>Input lines: Click here</summary>
+
+``` python
+N
+A1
+A2
+...
+AN
+
+[Case a]
+10
+8
+4
+9
+5
+3
+6
+0
+2
+7
+1 
+
+[Case b]
+6
+100
+130
+110
+140
+150
+120
+
+```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
+
+
+>Sample programs
+>
+> a. [ExMM_A_03a_integer_list_b](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_03a_integer_list_b.py)
+>    //  split(), list()
+> 
+> b. [ExMM_A_03b_integer_list_b](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_03b_integer_list_b.py)
+>    //  input().split(), append() 
+> 
+> b. [ExMM_A_03c_integer_list_b](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_03c_integer_list_b.py)
 >    //  map(), *list 
 
 
