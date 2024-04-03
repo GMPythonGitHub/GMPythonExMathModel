@@ -160,13 +160,13 @@ AN
 >Sample programs
 >
 > a. [ExMM_A_03a_integer_list_b](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_03a_integer_list_b.py)
->    //  split(), list()
+>    //  
 > 
 > b. [ExMM_A_03b_integer_list_b](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_03b_integer_list_b.py)
->    //  input().split(), append() 
+>    //  list comprehension, append() 
 > 
 > b. [ExMM_A_03c_integer_list_b](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_03c_integer_list_b.py)
->    //  map(), *list 
+>    //  list comprehension, *list 
 
 
 
