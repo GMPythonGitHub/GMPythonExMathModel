@@ -169,5 +169,99 @@ AN
 >    //  list comprehension, *list 
 
 
+### ExMM_A_04: string list
+N個の文字列を考えます。
+文字列の個数 $N$ が最初の行で，文字列 $(S_1，S_2, ... S_N)$ が空白で区切られて続く $N$ 行で与えられます。
+
+読み取り，文字列型の`list`に変換します。 
+すべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
+
+<details>
+<summary>Input lines: Click here</summary>
+
+``` python
+N
+S1
+S2
+...
+SN
+
+[Case a]
+10
+alpha
+bravo
+charlie
+delta
+echo
+foxtrot
+golf
+hotel
+india
+juliet
+
+[Case b]
+6
+abc
+acb
+bac
+bca
+cab
+cba
+
+```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
+
+
+>Sample programs
+>
+> a. [ExMM_A_04a_string_list](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_04a_string_list.py)
+>    //  
+> 
+> b. [ExMM_A_04b_string_list](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_04b_string_list.py)
+>    //  list comprehension, append() 
+> 
+> b. [ExMM_A_04c_string_list](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_04c_string_list.py)
+>    //  list comprehension, *list 
+
+
+### ExMM_A_05: character list
+N個の文字列を考えます。
+１この文字列 %S% が与えられます。
+
+読み取り，文字に分解して`list`に変換します。 
+すべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
+
+<details>
+<summary>Input lines: Click here</summary>
+
+``` python
+S
+
+[Case a]
+abcdefghij
+
+[Case b]
+012345
+
+```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
+
+
+>Sample programs
+>
+> a. [ExMM_A_05a_character_list](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_05a_character_list.py)
+>    //  list()
+> 
+> b. [ExMM_A_05b_character_list](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_05b_character_list.py)
+>    //  list(), *list
+> 
+> b. [ExMM_A_05c_character_list](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_05c_character_list.py)
+>    //  list(), join() 
+
+
 
 
