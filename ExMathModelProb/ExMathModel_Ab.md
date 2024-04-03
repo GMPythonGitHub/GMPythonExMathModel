@@ -1,32 +1,39 @@
 # **Exercises for Math Model A: input and output**
-### 数値や文字列データの入出力に関する演習問題です。
+#### 数値や文字列データの入出力に関する演習問題です。
 
-## ExMM_A_00: integer，float, and string
+[ExMM_A_00: integer，float, and string](#ExMM_A_00)
+
+[ExMM_A_01: integers](#ExMM_A_01)
+
+<div id="ExMM_A_00"></div>
+
+### ExMM_A_00: integer，float, and string
 整数Aと実数B，文字列Cがそれぞれ１行ごとに与えられます。これらを関数`input()`を用いて入力し，さらに変数に変換します。 
 それらを`print()`を用いて１行毎に表示して下さい。
 
 ```
 --- list of input lines ---
-[Case a]
+[Case a]  copy the following sentences to 'execution window'
 12345
 123.45
 abcde
 
-[Case b]
+[Case b]  copy the following sentences to 'execution window'
 1234500000
 0.00012345
 abc de
 ```
-３行をターミナルウィンドウに張り付けることによって入力します。
+柱: プログラムを実行後に，入力リストを実行ウィンドウに張り付けます。
 
 >解答例：
->- [ExMM_A_00_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_00_integer_float_string.py)
+>- [ExMM_A_00a_integer_float_string](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_00a_integer_float_string.py)
 >  - input(), int(), float(), print()
->- [ExMM_A_00a_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_00a_integer_float_string.py)
+>- [ExMM_A_00b_integer_float_string](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_00b_integer_float_string.py)
 >  - f-string 
 
+<div id="ExMM_A_01"></div>
 
-## ExMM_A_01: integers
+### ExMM_A_01: integers
 ６個の整数 (A
 <sub>1</sub>, A
 <sub>2</sub>...，A
@@ -75,6 +82,7 @@ N個の整数を考えます。
 >  - input().split(), append() 
 >- [ExMM_A_02b_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_02b_integer_list_a.py)
 >  - map(), *list
+
 
 ## ExMM_A_03: integer_list_b
 N個の整数を考えます。
