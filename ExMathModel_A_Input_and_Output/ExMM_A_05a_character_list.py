@@ -11,6 +11,8 @@ for i in range(lenS):
 # =========================================================
 # *** list of input lines ***
 '''
+S
+
 [Case a]
 abcdefghij
 

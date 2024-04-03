@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_A_05b_character_list.py:: list()
+## ExMM_A_05b_character_list.py:: list(), join()
 
 A = list(input())  # string
 
