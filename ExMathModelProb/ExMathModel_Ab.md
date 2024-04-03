@@ -2,7 +2,7 @@
 #### 数値や文字列データの入出力に関する演習問題です。
 
 ### ExMM_A_00: integer，float, and string
-整数Aと実数B，文字列Cが１行ごとに与えられます。
+整数 $ \ne $ と実数 $B$，文字列$C$が１行ごとに与えられます。
 
 関数`input()`を用いて読み取り，さらに変数に変換します。 
 `print()`を用いて１行ごとに表示して下さい。
@@ -21,12 +21,12 @@ abcde
 0.00012345
 abc de
 ```
-注: プログラム実行後に，実行ウィンドウに張り付けます。
+注: プログラム実行後に張り付けて下さい。
 
 </details>
 
 
->解答例
+>Sample programs
 >- [ExMM_A_00a_integer_float_string](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_00a_integer_float_string.py)
 >  - input(), int(), float(), print()
 >- [ExMM_A_00b_integer_float_string](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_00b_integer_float_string.py)
