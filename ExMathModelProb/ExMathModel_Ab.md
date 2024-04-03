@@ -8,7 +8,7 @@
 `print()`を用いて３変数を１行ごとに表示して下さい。
 
 <details>
-<summary>*** Input lines ***</summary>
+<summary>Input lines: Click here</summary>
 
 ``` python
 A
@@ -47,7 +47,7 @@ abc de
 カンマと空白`, `で区切り，１行で表示して下さい。
 
 <details>
-<summary>Input lines</summary>
+<summary>Input lines: Click here</summary>
 
 ``` python
 A1 A2 A3 A4 A5 A6
@@ -80,7 +80,7 @@ N個の整数を考えます。
 すべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
 
 <details>
-<summary>Input lines</summary>
+<summary>Input lines: Click here</summary>
 
 ``` python
 N
@@ -108,51 +108,9 @@ A1 A2 ... AN
 > b. [ExMM_A_02b_integers](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_02b_integer_list_a.py)
 >    //  input().split(), append() 
 > 
-> b. [ExMM_A_02b_integers](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_02b_integer_list_a.py)
+> b. [ExMM_A_02b_integers](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_02c_integer_list_a.py)
 >    //  map(), *list 
 
-
-## ExMM_A_03: integer_list_b
-N個の整数を考えます。
-整数の個数Nが最初の行で，続いての整数 (A
-<sub>1</sub>, A
-<sub>2</sub>...，A
-<sub>N</sub>) がN行で与えられます。これらを読み取り，整数型の`list`に変換します。 
-そのすべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
-
-```
---- list of input lines ---
-[Case a]
-10
-8 
-4 
-9 
-5 
-3 
-6 
-0 
-2 
-7 
-1 
-
-[Case b]
-6
-100 
-130 
-110 
-140 
-150 
-120
-
-```
-
->解答例：
->- [ExMM_A_03_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_03_integer_list_b.py)
->  - ---
->- [ExMM_A_03a_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_03a_integer_list_b.py)
->  - list comprehension, append() 
->- [ExMM_A_032_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_03b_integer_list_b.py)
->  - list comprehension, *list
 
 
 
