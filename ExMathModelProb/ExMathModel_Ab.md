@@ -4,8 +4,8 @@
 ### ExMM_A_00: integer，float, and string
 整数 $A \ne 0$ と実数 $B$，文字列 $C$ が１行ごとに与えられます。
 
-関数`input()`を用いて読み取り，さらに変数に変換します。 
-`print()`を用いて１行ごとに表示して下さい。
+`input()`を用いて読み取り，さらに変数に変換します。 
+`print()`を用いて３変数を１行ごとに表示して下さい。
 
 <details>
 <summary>Input lines</summary>
