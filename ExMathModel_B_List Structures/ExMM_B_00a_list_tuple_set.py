@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_B_00a_list_tuple_set.py:: list(), tuple(), set()
+## ExMM_B_00a_list_tuple_set.py:: append(), list(), tuple(), set()
 
 N = int(input())
 S = input()  # string
@@ -20,7 +20,7 @@ print(f'{setA = }')
 # *** list of input lines ***
 '''
 N
-A1, A2, ... A3
+A1, A2, ... AN
 
 [Case a]
 10

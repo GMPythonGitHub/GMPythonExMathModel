@@ -1,16 +1,20 @@
-# **Exercises for Math Model B: list structures**
-### リスト構造 (list, tuple, set, dictionary) の操作に関する演習問題です。
+# **Exercises for Math Model B: List Structures**
+#### リスト構造 list, tuple, set に関する演習問題です。
 
-## ExMM_B_00: list, tuple, set()
-N個の整数を考えます。
-整数の個数Nが最初の行で，続いての整数 (x
-<sub>1</sub>, x
-<sub>2</sub>...，x
-<sub>N</sub>) が空白`' '`で区切られて１行で与えられます。これらを読み取り，整数型の`list`に変換します。さらに，その`list`を`tuple`と`set`に変換します。 
-これら３種類のリスト構造を`関数 print()`で表示しなさい。
+### ExMM_B_00: list_tuple_set
+長さ$N$ の数列 $A = (A_1，A_2, ... A_N)$ を考えます。
+$N$ が最初の行で，数列 $A$ の要素が空白で区切られ，続く１行で与えられます。
 
-```
---- list of input lines ---
+読み取り，数列を `list`, `tuple` と `set` に変換します。 
+これらを `f-string` を用いて表示して下さい。
+
+<details>
+<summary>Input lines: Click here !</summary>
+
+``` python
+N
+A1, A2, ... AN
+
 [Case a]
 10
 8 4 9 5 3 6 0 2 7 1 
@@ -20,106 +24,52 @@ N個の整数を考えます。
 5 2 0 4 3 5 1 0 5 2
 
 ```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
 
 
->解答例：
->- [ExMM_A_00_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_00_integer_float_string.py)
->  - input(), int(), float(), print()
->- [ExMM_A_00a_integer_float_string](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_00a_integer_float_string.py)
->  - f-string 
+>Sample programs
+>
+> a. [ExMM_B_00a_list_tuple_set](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_00a_list_tuple_set.py)
+>    //  input(), int(), float(), print()
+> 
+> b. [ExMM_B_00b_list_tuple_set](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_00b_list_tuple_set.py)
+>    // f-string 
 
 
-## ExMM_A_01: integers
-６個の整数 (A
-<sub>1</sub>, A
-<sub>2</sub>...，A
-<sub>6</sub>) が空白`' '`で区切られて１行で与えられます。これらを読み取り，整数型変数に変換します。 
-それらをカンマと空白`, `で区切り，１行で表示して下さい。
+### ExMM_B_01: list_len_sum
+数列 $A = (A_1，A_2, ...)$ を考えます。
+数列 $A$ の要素が空白で区切られ，１行で与えられます。
 
-```
---- list of input lines ---
+読み取り，数列を `list`, `tuple` と `set` に変換します。 
+これらを `f-string` を用いて表示して下さい。
+
+<details>
+<summary>Input lines: Click here !</summary>
+
+``` python
+A1, A2, ...
+
 [Case a]
-4 5 3 0 2 1 
-
-[Case b]
-100 130 110 140 150 120
-```
-
->解答例：
->- [ExMM_A_01_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_01_integers.py)
->  - input(), int(), float(), print()
->- [ExMM_A_01a_integers](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_01a_integers.py)
->  - map(), f-string 
-
-## ExMM_A_02: integer_list_a
-N個の整数を考えます。
-整数の個数Nが最初の行で，続いての整数 (A
-<sub>1</sub>, A
-<sub>2</sub>...，A
-<sub>N</sub>) が空白`' '`で区切られて１行で与えられます。これらを読み取り，整数型の`list`に変換します。 
-そのすべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
-
-```
---- list of input lines ---
-[Case a]
-10
 8 4 9 5 3 6 0 2 7 1 
 
 [Case b]
-6
-100 130 110 140 150 120
+5 2 0 4 3 5 1 0 5 2
 
 ```
+注: プログラム実行後に張り付けて下さい。
 
->解答例：
->- [ExMM_A_02_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_02_integer_list_a.py)
->  - split(), list()
->- [ExMM_A_02a_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_02a_integer_list_a.py)
->  - input().split(), append() 
->- [ExMM_A_02b_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_02b_integer_list_a.py)
->  - map(), *list
+</details>
 
-## ExMM_A_03: integer_list_b
-N個の整数を考えます。
-整数の個数Nが最初の行で，続いての整数 (A
-<sub>1</sub>, A
-<sub>2</sub>...，A
-<sub>N</sub>) がN行で与えられます。これらを読み取り，整数型の`list`に変換します。 
-そのすべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
 
-```
---- list of input lines ---
-[Case a]
-10
-8 
-4 
-9 
-5 
-3 
-6 
-0 
-2 
-7 
-1 
-
-[Case b]
-6
-100 
-130 
-110 
-140 
-150 
-120
-
-```
-
->解答例：
->- [ExMM_A_03_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_03_integer_list_b.py)
->  - ---
->- [ExMM_A_03a_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_03a_integer_list_b.py)
->  - list comprehension, append() 
->- [ExMM_A_032_integer_list_a](https://github.com/GMPythonGitHub/GMPython_Exercises_for_Math_Model/blob/main/Exercises_for_Math_Model_A_Input_and_Output/ExMM_A_03b_integer_list_b.py)
->  - list comprehension, *list
+>Sample programs
+>
+> a. [ExMM_B_01a_list_len_sum](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_01a_list_len_sum.py)
+>    // f-string
+> 
+> b. [ExMM_B_01b_list_len_sum](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_01b_list_len_sum.py)
+>    // len(), sum(), max(), min() 
 
 
 

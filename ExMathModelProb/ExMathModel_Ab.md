@@ -1,7 +1,7 @@
-# **Exercises for Math Model A: input and output**
+# **Exercises for Math Model A: Input and Output**
 #### 数値や文字列データの入出力に関する演習問題です。
 
-### ExMM_A_00: integer，float, and string
+### ExMM_A_00: integer_float_string
 整数 $A$ と実数 $B$，文字列 $C$ が１行ごとに与えられます。
 
 `input()`を用いて読み取り，さらに変数に変換します。 
