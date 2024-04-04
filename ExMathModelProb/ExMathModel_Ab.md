@@ -8,7 +8,7 @@
 `print()`を用いて３変数を１行ごとに表示して下さい。
 
 <details>
-<summary>Input lines: Click here</summary>
+<summary>Input lines: Click here !</summary>
 
 ``` python
 A
@@ -47,7 +47,7 @@ abc de
 カンマと空白`, `で区切り，１行で表示して下さい。
 
 <details>
-<summary>Input lines: Click here</summary>
+<summary>Input lines: Click here !</summary>
 
 ``` python
 A1 A2 A3 A4 A5 A6
@@ -80,7 +80,7 @@ N個の整数を考えます。
 すべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
 
 <details>
-<summary>Input lines: Click here</summary>
+<summary>Input lines: Click here !</summary>
 
 ``` python
 N
@@ -120,7 +120,7 @@ N個の整数を考えます。
 すべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
 
 <details>
-<summary>Input lines: Click here</summary>
+<summary>Input lines: Click here !</summary>
 
 ``` python
 N
@@ -177,7 +177,7 @@ N個の文字列を考えます。
 すべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
 
 <details>
-<summary>Input lines: Click here</summary>
+<summary>Input lines: Click here !</summary>
 
 ``` python
 N
@@ -233,7 +233,7 @@ cba
 すべての要素をカンマと空白`, `で区切り，１行で表示して下さい。
 
 <details>
-<summary>Input lines: Click here</summary>
+<summary>Input lines: Click here !</summary>
 
 ``` python
 S
@@ -262,11 +262,11 @@ abcdefghij
 >    //  list(), join() 
 
 
-### ExMM_A_06: character list
+### ExMM_A_06: integer matrix
 $H$ 行，$W$ 列の整数型マトリックス $A$ を考えます。
-サイズ，$H$ と$W$ が１行で，整数要素が空白区切りで $H$ 行で与えられます。
+$H$ と$W$ が１行で，すべての整数要素が空白区切りで $H$ 行で与えられます。
 
-読み取り，文字に分解して２次元`list`に変換します。 
+読み取り，２次元`list`に変換します。 
 すべての要素をカンマと空白`, `で区切り，$H$ 行で表示して下さい。
 さらに，与えられたマトリックスの転置行列を作成し，同様に表示して下さい。
 
@@ -314,6 +314,60 @@ AH1 AH2 ... AHW
 > 
 > b. [ExMM_A_06c_integer_matrix](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_06c_integer_matrix.py)
 >    //  2-D list, list comprehension, *list 
+
+
+### ExMM_A_07: character matrix
+$H$ 行，$W$ 列の文字型マトリックス $S$ を考えます。
+$H$ と$W$ が１行で，すべての文字要素が空白区切りで $H$ 行で与えられます。
+
+読み取り，２次元`list`に変換します。 
+すべての要素をカンマと空白`, `で区切り，$H$ 行で表示して下さい。
+さらに，与えられたマトリックスの転置行列を作成し，同様に表示して下さい。
+
+<details>
+<summary>Input lines: Click here !</summary>
+
+``` python
+H W
+S11 S12 ... S1W
+S21 S22 ... S2W
+...
+SH1 SH2 ... SHW
+
+[Case a]
+6 6
+######
+#.xx.#
+#x..x#
+#.xx.#
+#x..x#
+######
+
+[Case b]
+6 3
+###
+#.#
+#x#
+#x#
+#.#
+###
+
+```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
+
+
+>Sample programs
+>
+> a. [ExMM_A_07a_character_matrix](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_07a_character_matrix.py)
+>    //  2-D list, list comprehension
+> 
+> b. [ExMM_A_07b_character_matrix](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_07b_character_matrix.py)
+>    //  2-D list, list comprehension, *list
+> 
+> b. [ExMM_A_07c_character_matrix](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_07c_character_matrix.py)
+>    //  2-D list, list comprehension, join() 
 
 
 

@@ -1,32 +1,32 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_A_06b_character_mesh.py::
+## ExMM_A_06b_character_matrix.py:: 2-D list, list comprehension, *list
 
 H, W = map(int, input().split())
 
-A = [list(input()) for _ in range(H)]
-B = []  # transformed
+S = [list(input()) for _ in range(H)]  # 2-D list for matrix
+T = []  # transformed
 for i in range(W):
-    Bi = []
+    Ti = []
     for j in range(H):
-        Bi.append(A[j][i])
-    B.append(Bi)
+        Ti.append(S[j][i])
+    T.append(Ti)
 
-for Ai in A:
-    S = ''
-    for Aij in Ai:
-        S += Aij + ', '
-    print(S)
+for Si in S:
+    print(*Si, sep=', ')
 print()
 
-for Bi in B:
-    S = ''
-    for Bij in Bi:
-        S += Bij + ', '
-    print(S)
+for Ti in T:
+    print(*Ti, sep=', ')
 
 # =========================================================
 # *** list of input lines ***
 '''
+H W
+S11 S12 ... S1W
+S21 S22 ... S2W
+...
+SH1 SH2 ... SHW
+
 [Case a]
 6 6
 ######

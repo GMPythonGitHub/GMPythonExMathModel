@@ -3,7 +3,7 @@
 
 H, W = map(int, input().split())
 
-A = [list(map(int, input().split())) for _ in range(H)]
+A = [list(map(int, input().split())) for _ in range(H)]  # 2-D list for matrix
 B = [[A[j][i] for j in range(H)] for i in range(W)]  # transformed
 
 for Ai in A:
