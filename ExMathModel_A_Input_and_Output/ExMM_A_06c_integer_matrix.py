@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_A_06b_integer_mesh.py::
+## ExMM_A_06b_integer_matrix.py:: 2-D list, list comprehension, *list
 
 H, W = map(int, input().split())
 

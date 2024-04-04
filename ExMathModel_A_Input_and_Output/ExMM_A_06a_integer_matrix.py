@@ -1,11 +1,11 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_A_06a_character_mesh.py::
+## ExMM_A_06a_integer_matrix.py:: 2-D list, list comprehension,
 
 H, W = map(int, input().split())
 
-A = [[None] * W for _ in range(H)]  # list for mesh
+A = [[None] * W for _ in range(H)]  # 2-D list for matrix
 for i in range(H):
-    Ai = list(input())
+    Ai = list(map(int, input().split()))
     for j in range(W):
         A[i][j] = Ai[j]
 
@@ -23,23 +23,29 @@ for i in range(W):  # transformed
 # =========================================================
 # *** list of input lines ***
 '''
+H W
+A11 A12 ... A1W
+A21 A22 ... A2W
+...
+AH1 AH2 ... AHW
+
 [Case a]
 6 6
-######
-#.xx.#
-#x..x#
-#.xx.#
-#x..x#
-######
+0 1 2 3 4 5
+5 0 1 2 3 4
+4 5 0 1 2 3
+3 4 5 0 1 2
+2 3 4 5 0 1
+1 2 3 4 5 0 
 
 [Case b]
 6 3
-###
-#.#
-#x#
-#x#
-#.#
-###
+0 1 2
+1 2 0
+2 0 1
+0 1 2
+1 2 0
+2 0 1
 
 '''
 

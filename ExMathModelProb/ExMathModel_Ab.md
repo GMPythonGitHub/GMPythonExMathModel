@@ -227,7 +227,6 @@ cba
 
 
 ### ExMM_A_05: character list
-N個の文字列を考えます。
 １この文字列 %S% が与えられます。
 
 読み取り，文字に分解して`list`に変換します。 
@@ -261,6 +260,60 @@ abcdefghij
 > 
 > b. [ExMM_A_05c_character_list](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_05c_character_list.py)
 >    //  list(), join() 
+
+
+### ExMM_A_06: character list
+$H$ 行，$W$ 列の整数型マトリックス $A$ を考えます。
+サイズ，$H$ と$W$ が１行で，整数要素が空白区切りで $H$ 行で与えられます。
+
+読み取り，文字に分解して２次元`list`に変換します。 
+すべての要素をカンマと空白`, `で区切り，$H$ 行で表示して下さい。
+さらに，与えられたマトリックスの転置行列を作成し，同様に表示して下さい。
+
+<details>
+<summary>Input lines: Click here !</summary>
+
+``` python
+H W
+A11 A12 ... A1W
+A21 A22 ... A2W
+...
+AH1 AH2 ... AHW
+
+[Case a]
+6 6
+0 1 2 3 4 5
+5 0 1 2 3 4
+4 5 0 1 2 3
+3 4 5 0 1 2
+2 3 4 5 0 1
+1 2 3 4 5 0 
+
+[Case b]
+6 3
+0 1 2
+1 2 0
+2 0 1
+0 1 2
+1 2 0
+2 0 1
+
+```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
+
+
+>Sample programs
+>
+> a. [ExMM_A_06a_integer_matrix](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_06a_integer_matrix.py)
+>    //  2-D list, list comprehension
+> 
+> b. [ExMM_A_06b_integer_matrix](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_06b_integer_matrix.py)
+>    //  2-D list, list comprehension
+> 
+> b. [ExMM_A_06c_integer_matrix](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_A_Input_and_Output/ExMM_A_06c_integer_matrix.py)
+>    //  2-D list, list comprehension, *list 
 
 
 

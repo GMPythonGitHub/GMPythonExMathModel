@@ -1,9 +1,9 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_A_06b_integer_mesh.py::
+## ExMM_A_06b_integer_matrix.py:: 2-D list, list comprehension
 
 H, W = map(int, input().split())
 
-A = [list(map(int, input().split())) for _ in range(H)]
+A = [list(map(int, input().split())) for _ in range(H)]  # 2-D list for matrix
 B = []  # transformed
 for i in range(W):
     Bi = []

@@ -1,11 +1,11 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_A_06a_integer_mesh.py::
+## ExMM_A_06a_integer_matrix.py::
 
 H, W = map(int, input().split())
 
 A = [[None] * W for _ in range(H)]  # list for mesh
 for i in range(H):
-    Ai = list(map(int, input().split()))
+    Ai = list(input())
     for j in range(W):
         A[i][j] = Ai[j]
 
@@ -25,21 +25,21 @@ for i in range(W):  # transformed
 '''
 [Case a]
 6 6
-0 1 2 3 4 5
-5 0 1 2 3 4
-4 5 0 1 2 3
-3 4 5 0 1 2
-2 3 4 5 0 1
-1 2 3 4 5 0 
+######
+#.xx.#
+#x..x#
+#.xx.#
+#x..x#
+######
 
 [Case b]
 6 3
-0 1 2
-1 2 0
-2 0 1
-0 1 2
-1 2 0
-2 0 1
+###
+#.#
+#x#
+#x#
+#.#
+###
 
 '''
 
