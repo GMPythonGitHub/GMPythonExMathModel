@@ -4,21 +4,24 @@
 N = int(input())
 S = input()  # string
 
-strA = list(S.split())
-lstA = []  # list of strings
+strA = list(S.split())  # list of strings
+lstA = []  # list of integers
 for i in range(N):
     lstA.append(int(strA[i]))
 print(f'{lstA = }')
 
-tplA = tuple(lstA)
+tplA = tuple(lstA)  # tuple of integers
 print(f'{tplA = }')
 
-setA = set(lstA)
+setA = set(lstA)  # set of integers
 print(f'{setA = }')
 
 # =========================================================
 # *** list of input lines ***
 '''
+N
+A1, A2, ... A3
+
 [Case a]
 10
 8 4 9 5 3 6 0 2 7 1 

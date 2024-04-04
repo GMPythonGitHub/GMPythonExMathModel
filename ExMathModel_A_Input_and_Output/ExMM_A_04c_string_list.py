@@ -15,7 +15,7 @@ S2
 ...
 SN
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 10
 alpha
 bravo
@@ -28,7 +28,7 @@ hotel
 india
 juliet
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6
 abc
 acb

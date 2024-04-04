@@ -19,11 +19,11 @@ print(S)
 N
 A1 A2 ... AN
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 10
 8 4 9 5 3 6 0 2 7 1 
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6
 100 130 110 140 150 120
 

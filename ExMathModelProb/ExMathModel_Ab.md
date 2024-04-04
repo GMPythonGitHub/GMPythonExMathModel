@@ -52,10 +52,10 @@ abc de
 ``` python
 A1 A2 A3 A4 A5 A6
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 4 5 3 0 2 1 
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 100 130 110 140 150 120
 
 ```
@@ -86,11 +86,11 @@ N個の整数を考えます。
 N
 A1 A2 ... AN
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 10
 8 4 9 5 3 6 0 2 7 1 
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6
 100 130 110 140 150 120
 
@@ -129,7 +129,7 @@ A2
 ...
 AN
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 10
 8
 4
@@ -142,7 +142,7 @@ AN
 7
 1 
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6
 100
 130
@@ -186,7 +186,7 @@ S2
 ...
 SN
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 10
 alpha
 bravo
@@ -199,7 +199,7 @@ hotel
 india
 juliet
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6
 abc
 acb
@@ -238,10 +238,10 @@ cba
 ``` python
 S
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 abcdefghij
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 012345
 
 ```
@@ -280,7 +280,7 @@ A21 A22 ... A2W
 ...
 AH1 AH2 ... AHW
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 6 6
 0 1 2 3 4 5
 5 0 1 2 3 4
@@ -289,7 +289,7 @@ AH1 AH2 ... AHW
 2 3 4 5 0 1
 1 2 3 4 5 0 
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6 3
 0 1 2
 1 2 0
@@ -334,7 +334,7 @@ S21 S22 ... S2W
 ...
 SH1 SH2 ... SHW
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 6 6
 ######
 #.xx.#
@@ -343,7 +343,7 @@ SH1 SH2 ... SHW
 #x..x#
 ######
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6 3
 ###
 #.#

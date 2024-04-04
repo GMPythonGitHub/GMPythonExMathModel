@@ -10,10 +10,10 @@ print(*A, sep=', ')
 '''
 S
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 abcdefghij
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 012345
 
 '''

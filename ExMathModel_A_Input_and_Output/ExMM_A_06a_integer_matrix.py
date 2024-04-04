@@ -29,7 +29,7 @@ A21 A22 ... A2W
 ...
 AH1 AH2 ... AHW
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 6 6
 0 1 2 3 4 5
 5 0 1 2 3 4
@@ -38,7 +38,7 @@ AH1 AH2 ... AHW
 2 3 4 5 0 1
 1 2 3 4 5 0 
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6 3
 0 1 2
 1 2 0

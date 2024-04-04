@@ -23,7 +23,7 @@ A2
 ...
 AN
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 10
 8
 4
@@ -36,7 +36,7 @@ AN
 7
 1 
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6
 100
 130

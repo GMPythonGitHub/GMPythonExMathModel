@@ -21,10 +21,10 @@ print(A6, end=', ')
 '''
 A1 A2 A3 A4 A5 A6
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 4 5 3 0 2 1 
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 100 130 110 140 150 120
 
 '''

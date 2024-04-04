@@ -27,7 +27,7 @@ S21 S22 ... S2W
 ...
 SH1 SH2 ... SHW
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 6 6
 ######
 #.xx.#
@@ -36,7 +36,7 @@ SH1 SH2 ... SHW
 #x..x#
 ######
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6 3
 ###
 #.#

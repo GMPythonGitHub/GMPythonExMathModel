@@ -27,7 +27,7 @@ for Bi in B:
 # =========================================================
 # *** list of input lines ***
 '''
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 6 6
 0 1 2 3 4 5
 5 0 1 2 3 4
@@ -36,7 +36,7 @@ for Bi in B:
 2 3 4 5 0 1
 1 2 3 4 5 0 
 
-[Case b]
+[Case b]  Copy the following sentences to 'execution window' !
 6 3
 0 1 2
 1 2 0

@@ -16,12 +16,12 @@ A
 B
 C
 
-[Case a]
+[Case a]  Copy the following sentences to 'execution window' !
 123
 123.45
 abcde
 
-[Case B]
+[Case B]  Copy the following sentences to 'execution window' !
 123000000
 0.00012345
 abc de
