@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_B_02a_list_exchange.py::
+## ExMM_B_02a_list_exchange.py:: append()
 
 N = int(input())
 A = list(map(int, input().split()))  # list

@@ -1,16 +1,21 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_B_03a_list_reverse.py:: list comprehension
+## ExMM_B_03b_list_reverse.py::
 
 N = int(input())
 A = list(map(int, input().split()))  # list
 
-B = [A[N-i-1] for i in range(N)]
+B = [None] * N
+for i, Ai in enumerate(A):
+    B[N-i-1] = Ai
 
 print(f'{A = }\n{B = } ')
 
 # =========================================================
 # *** list of input lines ***
 '''
+N
+A1, A2, ..., AN
+
 [Case a]
 10
 8 4 9 5 3 6 0 2 7 1 

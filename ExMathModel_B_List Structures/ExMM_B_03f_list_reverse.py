@@ -1,12 +1,10 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_B_03a_list_reverse.py:: append()
+## ExMM_B_03f_list_reverse.py:: reversed()
 
 N = int(input())
 A = list(map(int, input().split()))  # list
 
-B = []
-for i in range(N):
-    B.append(A[N-1-i])
+B = list(reversed(A))
 
 print(f'{A = }\n{B = } ')
 
