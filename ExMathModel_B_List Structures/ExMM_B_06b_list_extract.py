@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_B_06a_list_calc.py:: extract
+## ExMM_B_06a_list_calc.py:: list comprehension
 
 N = int(input())
 A = list(map(int, input().split()))  # list

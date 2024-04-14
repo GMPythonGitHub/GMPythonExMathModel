@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_B_05a_list_calc.py:: absolute, square
+## ExMM_B_05a_list_calc.py:: absolute, square, list comprehension
 
 N = int(input())
 A = list(map(int, input().split()))  # list
