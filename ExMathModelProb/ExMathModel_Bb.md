@@ -164,7 +164,7 @@ A1, A2, ..., AN
 数列の項数 $N$ が最初の行で，数列 $A$ の要素が空白で区切られ，次の１行で与えられます。
 
 読み取り，数列を昇順および降順でソートします。 
-これらソートした数列を表示して下さい。
+これらのソートした数列を表示して下さい。
 
 <details>
 <summary>Input lines: Click here !</summary>
@@ -196,11 +196,88 @@ A1, A2, ..., AN
 >    // bubble sort
 > 
 > c. [ExMM_B_04c_list_sort](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_04c_list_sort.py)
->    // sorted(), sorted( , reverse=True)
+>    // list.sort(), list.sort(reverse=True)sorted(), sorted( , reverse=True)
 > 
 > d. [ExMM_B_04d_list_sort](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_04d_list_sort.py)
 >    // sorted(), sorted( , reverse=True)
 > 
+> 
+
+
+### ExMM_B_05: list_calc
+数列$A = (A_1，A_2, ...)$ を考えます。
+数列の項数 $N$ が最初の行で，数列 $A$ の要素が空白で区切られ，次の１行で与えられます。
+
+読み取り，各項の絶対値からなる数列と二乗からなる数列を求めます。 
+これらの計算し数列を表示して下さい。
+
+<details>
+<summary>Input lines: Click here !</summary>
+
+``` python
+N
+A1, A2, ..., AN
+
+[Case a]
+10
+0 1 2 3 4 5 6 7 8 9
+
+[Case b]
+11
+-5 -4 -3 -2 -1 0 1 2 3 4 5
+
+```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
+
+
+>Sample programs
+>
+> a. [ExMM_B_05a_list_calc](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_05a_list_calc.py)
+>    // absolute, square
+> 
+> b. [ExMM_B_05b_list_calc](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_05b_list_calc.py)
+>    // absolute, square, list comprehension 
+> 
+>
+
+
+### ExMM_B_06: list_extract
+数列$A = (A_1，A_2, ...)$ を考えます。
+数列の項数 $N$ が最初の行で，数列 $A$ の要素が空白で区切られ，次の１行で与えられます。
+
+読み取り，偶数番目の項を抽出した数列と値が偶数の項を抽出した数列を求めます。 
+これらの項を選択した数列を表示して下さい。
+
+<details>
+<summary>Input lines: Click here !</summary>
+
+``` python
+N
+A1, A2, ..., AN
+
+[Case a]
+10
+0 1 2 3 4 5 6 7 8 9
+
+[Case b]
+11
+-5 -4 -3 -2 -1 0 1 2 3 4 5
+
+```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
+
+
+>Sample programs
+>
+> a. [ExMM_B_06a_list_extract](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_06a_list_extract.py)
+>    // append()
+> 
+> a. [ExMM_B_06b_list_extract](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_06b_list_extract.py)
+>    // list comprehension
 > 
 
 
