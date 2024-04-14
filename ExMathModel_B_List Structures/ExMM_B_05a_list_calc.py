@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_B_05a_list_calc.py:: absolute, aquare
+## ExMM_B_05a_list_calc.py:: absolute, square
 
 N = int(input())
 A = list(map(int, input().split()))  # list
@@ -21,6 +21,9 @@ print(f'{A = }\n{absA = }\n{sqrA = } ')
 # =========================================================
 # *** list of input lines ***
 '''
+N
+A1, A2, ..., AN
+
 [Case a]
 10
 0 1 2 3 4 5 6 7 8 9

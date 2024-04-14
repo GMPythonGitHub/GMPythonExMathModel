@@ -125,11 +125,11 @@ A1, A2, ..., AN
 
 [Case a]
 10
-0 1 2 3 4 5 6 7 8 9
+8 4 9 5 3 6 0 2 7 1 
 
 [Case b]
-11
--5 -4 -3 -2 -1 0 1 2 3 4 5
+10
+5 2 0 4 3 5 1 0 5 2
 
 ```
 注: プログラム実行後に張り付けて下さい。
@@ -139,23 +139,68 @@ A1, A2, ..., AN
 
 >Sample programs
 >
-> a. [ExMM_B_03a_list_exchange](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03a_list_reverse.py)
+> a. [ExMM_B_03a_list_reverse](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03a_list_reverse.py)
 >    // append()
 > 
-> b. [ExMM_B_03b_list_exchange](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03b_list_reverse.py)
+> b. [ExMM_B_03b_list_reverse](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03b_list_reverse.py)
 >    // 
 > 
-> c. [ExMM_B_03c_list_exchange](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03c_list_reverse.py)
+> c. [ExMM_B_03c_list_reverse](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03c_list_reverse.py)
 >    // list comprehension
 > 
-> d. [ExMM_B_03d_list_exchange](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03d_list_reverse.py)
+> d. [ExMM_B_03d_list_reverse](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03d_list_reverse.py)
 >    // slicing
 > 
-> e. [ExMM_B_03e_list_exchange](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03e_list_reverse.py)
+> e. [ExMM_B_03e_list_reverse](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03e_list_reverse.py)
 >    // list.reverse()
 > 
-> f. [ExMM_B_03f_list_exchange](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03f_list_reverse.py)
+> f. [ExMM_B_03f_list_reversettps://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_03f_list_reverse.py)
 >    // reversed()
+> 
+
+
+### ExMM_B_04: list_sort
+数列$A = (A_1，A_2, ...)$ を考えます。
+数列の項数 $N$ が最初の行で，数列 $A$ の要素が空白で区切られ，次の１行で与えられます。
+
+読み取り，数列を昇順および降順でソートします。 
+これらソートした数列を表示して下さい。
+
+<details>
+<summary>Input lines: Click here !</summary>
+
+``` python
+N
+A1, A2, ..., AN
+
+[Case a]
+10
+8 4 9 5 3 6 0 2 7 1 
+
+[Case b]
+10
+5 2 0 4 3 5 1 0 5 2
+
+```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
+
+
+>Sample programs
+>
+> a. [ExMM_B_04a_list_sort](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_04a_list_sort.py)
+>    // select sort
+> 
+> b. [ExMM_B_04b_list_sort](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_04b_list_sort.py)
+>    // bubble sort
+> 
+> c. [ExMM_B_04c_list_sort](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_04c_list_sort.py)
+>    // sorted(), sorted( , reverse=True)
+> 
+> d. [ExMM_B_04d_list_sort](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_04d_list_sort.py)
+>    // sorted(), sorted( , reverse=True)
+> 
 > 
 
 
