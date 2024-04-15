@@ -1,10 +1,18 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_00a_geom_arithmetics:: +, -, *, /
+## ExMM_D_00b_geom_arithmetics:: +, -, *, /, function
 
 A, B = map(int, input().split())
 
-add, sub, mul, div = A + B, A - B, A * B, A / B
-print(f'{add = }, {sub = }, {mul = }, {div = }')
+def add(A, B):
+    return A + B
+def sub(A, B):
+    return A - B
+def mul(A, B):
+    return A * B
+def div(A, B):
+    return A / B
+
+print(f'{add(A, B) = }, {sub(A, B) = }, {mul(A, B) = }, {div(A, B) = }')
 
 # =========================================================
 # *** list of input lines ***

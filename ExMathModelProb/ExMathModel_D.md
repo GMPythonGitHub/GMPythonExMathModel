@@ -12,16 +12,16 @@ $A$ と$B$ が空白で区切られて，１行で与えられます。
 <summary>Input lines: Click here !</summary>
 
 ``` python
-N
-A1, A2, ... AN
+A B
 
 [Case a]
-10
-8 4 9 5 3 6 0 2 7 1 
+20 10 
 
 [Case b]
-10
-5 2 0 4 3 5 1 0 5 2
+40 -20
+
+[Case c]
+-80 40
 
 ```
 注: プログラム実行後に張り付けて下さい。
@@ -31,10 +31,64 @@ A1, A2, ... AN
 
 >Sample programs
 >
-> a. [ExMM_B_00a_list_tuple_set](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_00a_list_tuple_set.py)
->    //  input(), int(), float(), print()
+> a. [ExMM_D_00a_geom_arithmetics](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_00a_geom_arithmetics.py)
+>    //  +, - , *, /
 > 
-> b. [ExMM_B_00b_list_tuple_set](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_B_List%20Structures/ExMM_B_00b_list_tuple_set.py)
->    // f-string 
+> b. [ExMM_D_00b_geom_arithmetics](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_00b_geom_arithmetics.py)
+>    //  +, - , *, /, function
+> 
+> c. [ExMM_D_00c_geom_arithmetics](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_00c_geom_arithmetics.py)
+>    //  +, - , *, /, function
+> 
+> d. [ExMM_D_00d_geom_arithmetics](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_00d_geom_arithmetics.py)
+>    //  +, - , *, /, class
+> 
+
+
+### ExMM_D_00: geom_mltiples
+２つの整数 $A& と$B$ を考えます。
+$A$ と$B$ が空白で区切られて，１行で与えられます。
+
+読み取り，次に示す４つの $B$ の倍数を計算します。
+「$B$ の倍数のうち，$A$ 以下で最大のもの 」，「$B$ の倍数のうち，$A$ より小さい最大のもの 」，
+「$B$ の倍数のうち，$A$ 以上で最小のもの 」，「$B$ の倍数のうち，$A$ より大きく最小のもの 」
+これらを `表示して下さい。
+
+<details>
+<summary>Input lines: Click here !</summary>
+
+``` python
+A B
+
+[Case a]
+15 5 
+
+[Case b]
+16 5
+
+[Case c]
+14 5
+
+```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
+
+
+>Sample programs
+>
+> a. [ExMM_D_01a_geom_multiples](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_01a_geom_multiples.py)
+>    %, //
+> 
+> b. [ExMM_D_01a_geom_multiples](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_01b_geom_multiples.py)
+>    //
+> 
+> c. [ExMM_D_01a_geom_multiples](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_01c_geom_multiples.py)
+>    //, function
+> 
+> d. [ExMM_D_01a_geom_multiples](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_01d_geom_multiples.py)
+>    //, class
+> 
+
 
 
