@@ -92,7 +92,7 @@ A B
 
 
 ### ExMM_D_04: geom_point
-平面座標の座標点 $A(X, Y)$ を考えます。
+平面座標における座標点 $A(X, Y)$ を考えます。
 整数 $X$ と$Y$ が空白で区切られて，１行で与えられます。
 
 原点から座標点 $A$ までの距離と，原点から見た座標点の方位角を計算します。
@@ -125,6 +125,52 @@ X Y
 >Sample programs
 >
 > a. [ExMM_D_04a_geom_point](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_04a_geom_point.py)
+>    sqrt(), atan2()
+> 
+
+
+### ExMM_D_05: geom_point_list
+平面座標における $N$ 個の座標点 $A_1(X_1, Y_1) ... A_N(X_N, Y_N)$ を考えます。
+整数 $X$ と$Y$ が空白で区切られて，１行で与えられます。
+
+座標点の個数 $N$ が最初の行で，座標値 $(X, Y)$ が空白で区切られ，後続の行で与えられます。
+原点からそれぞれの座標点 $A$ までの距離と，原点から見た座標点の方位角を計算します。
+これらを表示して下さい。
+
+<details>
+<summary>Input lines: Click here !</summary>
+
+``` python
+N
+X1 Y1
+X2 Y2
+...
+XN YN
+
+[Case a]
+4
+3 4 
+-3 -4
+-3 -4
+3 -4
+
+[Case b]
+5
+8 3
+2 -5
+-4 7
+0 6
+1 -9
+
+```
+注: プログラム実行後に張り付けて下さい。
+
+</details>
+
+
+>Sample programs
+>
+> a. [ExMM_D_05a_geom_point_list](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_05a_geom_point_list.py)
 >    sqrt(), atan2()
 > 
 
