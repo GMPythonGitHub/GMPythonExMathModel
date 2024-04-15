@@ -23,7 +23,7 @@ print(f'{A = }\n{sortAa = }\n{sortAd = } ')
 # *** list of input lines ***
 '''
 N
-A1, A2, ..., AN
+A1 A2 ... AN
 
 [Case a]
 10

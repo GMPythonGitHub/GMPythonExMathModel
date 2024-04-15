@@ -13,7 +13,7 @@ $N$ が最初の行で，数列 $A$ の要素が空白で区切られ，続く�
 
 ``` python
 N
-A1, A2, ... AN
+A1 A2 ... AN
 
 [Case a]
 10
@@ -49,7 +49,7 @@ A1, A2, ... AN
 <summary>Input lines: Click here !</summary>
 
 ``` python
-A1, A2, ...
+A1 A2 A3 ...
 
 [Case a]
 8 4 9 5 3 6 0 2 7 1 
@@ -84,7 +84,7 @@ A1, A2, ...
 
 ``` python
 N
-A1, A2, ..., AN
+A1 A2 ... AN
 
 [Case a]
 10
@@ -121,7 +121,7 @@ A1, A2, ..., AN
 
 ``` python
 N
-A1, A2, ..., AN
+A1 A2 ... AN
 
 [Case a]
 10
@@ -171,7 +171,7 @@ A1, A2, ..., AN
 
 ``` python
 N
-A1, A2, ..., AN
+A1 A2 ... AN
 
 [Case a]
 10
@@ -216,7 +216,7 @@ A1, A2, ..., AN
 
 ``` python
 N
-A1, A2, ..., AN
+A1 A2 ... AN
 
 [Case a]
 10
@@ -255,7 +255,7 @@ A1, A2, ..., AN
 
 ``` python
 N
-A1, A2, ..., AN
+A1 A2 ... AN
 
 [Case a]
 10

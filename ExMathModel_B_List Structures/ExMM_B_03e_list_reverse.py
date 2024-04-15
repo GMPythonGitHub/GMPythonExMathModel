@@ -13,7 +13,7 @@ print(f'{A = }\n{B = } ')
 # *** list of input lines ***
 '''
 N
-A1, A2, ..., AN
+A1 A2 ... AN
 
 [Case a]
 10

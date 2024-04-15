@@ -1,26 +1,15 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
 ## ExMM_B_00a_list_tuple_set.py:: append(), list(), tuple(), set()
 
-N = int(input())
-S = input()  # string
+A, B = map(int, input().split())
 
-strA = list(S.split())  # list of strings
-lstA = []  # list of integers
-for i in range(N):
-    lstA.append(int(strA[i]))
-print(f'{lstA = }')
-
-tplA = tuple(lstA)  # tuple of integers
-print(f'{tplA = }')
-
-setA = set(lstA)  # set of integers
-print(f'{setA = }')
+add, sub, mul, div = A + B, A - B, A * B, A / B
+print(f'{add =}, {sub =}, {mul =}, {div =}')
 
 # =========================================================
 # *** list of input lines ***
 '''
-N
-A1, A2, ... AN
+A B
 
 [Case a]
 10
