@@ -1,7 +1,7 @@
 # **Exercises for Math Model D: Geometrical Calculation**
-#### 幾何学計算 に関する演習問題です。
+### 幾何学計算 に関する演習問題です。
 
-### ExMM_D_00: geom_arithmetics
+## ExMM_D_00: geom_arithmetics
 ２つの整数 $A& と$B$ を考えます。
 
 四則演算（加算，減算，乗算，除算）の結果を計算し, 表示して下さい。
@@ -39,7 +39,7 @@ A B
 > 
 
 
-### ExMM_D_01: geom_mltiples
+## ExMM_D_01: geom_mltiples
 ２つの整数 $A& と$B$ を考えます。
 
 次に示す４種類の $B$ の倍数を計算して, ます。
@@ -81,7 +81,7 @@ A B
 > 
 
 
-### ExMM_D_04: geom_point
+## ExMM_D_04: geom_point
 平面座標における座標点 $A(X, Y)$ を考えます。
 
 原点から座標点 $A$ までの距離と，原点から見た座標点の方位角を計算して，表示して下さい。
@@ -114,7 +114,7 @@ X Y
 > 
 
 
-### ExMM_D_05: geom_point_list
+## ExMM_D_05: geom_point_list
 平面座標における $N$ 個の座標点 $A_1(X_1, Y_1) ... A_N(X_N, Y_N)$ を考えます。
 
 座標点の個数 $N$ が最初の行で，座標値 $(X, Y)$ が空白で区切られ，後続の行で与えられます。
