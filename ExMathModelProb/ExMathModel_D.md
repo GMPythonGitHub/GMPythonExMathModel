@@ -110,13 +110,20 @@ X Y
 
 > a. [ExMM_D_04a_geom_point](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_04a_geom_point.py)
 >    sqrt(), atan2()
- 
+>
+> b. [ExMM_D_04b_geom_point](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_04b_geom_point.py)
+>    sqrt(), atan2(), function
+> 
+> c. [ExMM_D_04c_geom_point](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_04c_geom_point.py)
+>    sqrt(), atan2(), class
+
+
 </details>
 
 
 ## ExMM_D_05: geom_point_list
 平面座標における $N$ 個の座標点 $A_1(X_1, Y_1) ... A_N(X_N, Y_N)$ を考えます。  
-原点からそれぞれの座標点 $A_{1, ..., N}$ までの距離と，原点から見た座標点の方位角を計算し，表示して下さい。
+原点からそれら座標点 $A_{1, ..., N}$ までの距離と，原点から見た座標点の方位角を計算し，表示して下さい。
 
 ### Input lines: paste lines after starting program
 N  
