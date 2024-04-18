@@ -1,14 +1,17 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_04a_geom_point:: sqrt(), atan2()
+## ExMM_D_04b_geom_point:: sqrt(), atan2(), function
 
 import math
 
 X, Y = map(int, input().split())
 
-len = math.sqrt(X*X + Y*Y)
-dir  = math.degrees(math.atan2(Y, X))
+def point(xx, yy):
+    return (
+        math.sqrt(xx*xx + yy*yy),
+        math.degrees(math.atan2(yy, xx)) )
 
-print(f'{len = }, {dir = }')
+dst, dir = point(X, Y)
+print(f'{dst = }, {dir = }')
 
 # =========================================================
 # *** list of input lines ***
@@ -19,13 +22,13 @@ X Y
 3 4 
 
 [Case b]
--3 -4
+-4 3
 
 [Case c]
 -3 -4
 
 [Case d]
-3 -4
+4 -3
 
 '''
 

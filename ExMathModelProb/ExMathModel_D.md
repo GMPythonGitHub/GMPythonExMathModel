@@ -2,109 +2,107 @@
 ### 幾何学計算 に関する演習問題です。
 
 ## ExMM_D_00: geom_arithmetics
-２つの整数 $A$ と$B$ を考えます。
-
+２つの整数 $A$ と$B$ を考えます。  
 四則演算（加算，減算，乗算，除算）の結果を計算し, 表示して下さい。
 
-### Input lines
-#### 注: プログラム実行後に, 張り付けて下さい。
-
-``` python
+### Input lines: paste lines after starting program
 A B
 
 [Case a]
+``` python
 20 10 
-
+```
 [Case b]
+``` python
 40 -20
-
+```
 [Case c]
+``` python
 -80 40
-
 ```
 
->Sample programs
->
+<details>
+<summary>Sample programs: Click here !</summary>
+
 > a. [ExMM_D_00a_geom_arithmetics](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_00a_geom_arithmetics.py)
 >    //  +, - , *, /
 > 
 > b. [ExMM_D_00b_geom_arithmetics](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_00b_geom_arithmetics.py)
->    //  +, - , *, /, function
+>    //  +, - , *, /: function; 個々の演算を計算する４つの関数
 > 
 > c. [ExMM_D_00c_geom_arithmetics](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_00c_geom_arithmetics.py)
->    //  +, - , *, /, function
+>    //  +, - , *, /: function; 一括して４つの演算を計算する関数
 > 
 > d. [ExMM_D_00d_geom_arithmetics](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_00d_geom_arithmetics.py)
->    //  +, - , *, /, class
-> 
+>    //  +, - , *, /: class; 変数と関数を内蔵するクラス
+
+</details>
 
 
 ## ExMM_D_01: geom_mltiples
-２つの整数 $A$ と$B$ を考えます。
+２つの整数 $A$ と$B$ を考えます。  
+次に示す４種類の $B$ の倍数を計算して, 表示して下さい。  
+「$B$ の倍数のうち，$A$ 以下で最大のもの 」  
+「$B$ の倍数のうち，$A$ より小さい最大のもの 」  
+「$B$ の倍数のうち，$A$ 以上で最小のもの 」  
+「$B$ の倍数のうち，$A$ より大きく最小のもの 」
 
-次に示す４種類の $B$ の倍数を計算して, ます。
-「$B$ の倍数のうち，$A$ 以下で最大のもの 」，「$B$ の倍数のうち，$A$ より小さい最大のもの 」，
-「$B$ の倍数のうち，$A$ 以上で最小のもの 」，「$B$ の倍数のうち，$A$ より大きく最小のもの 」
-これらを表示して下さい。
-
-
-### Input lines
-#### 注: プログラム実行後に, 張り付けて下さい。
-
-``` python
+### Input lines: paste lines after starting program
 A B
 
 [Case a]
+``` python
 15 5 
-
+```
 [Case b]
+``` python
 16 5
-
+```
 [Case c]
+``` python
 14 5
-
 ```
 
->Sample programs
->
+<details>
+<summary>Sample programs: click here !</summary>
+
 > a. [ExMM_D_01a_geom_multiples](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_01a_geom_multiples.py)
->    %, //
+>    %, //: 商と剰余を用いて，定義に従って倍数を計算
 > 
 > b. [ExMM_D_01b_geom_multiples](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_01b_geom_multiples.py)
->    //
+>    //: if文を用いずに，４種類の倍数を計算
 > 
 > c. [ExMM_D_01c_geom_multiples](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_01c_geom_multiples.py)
->    //, function
+>    //: function; ４種類の倍数を計算する関数
 > 
 > d. [ExMM_D_01d_geom_multiples](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_01d_geom_multiples.py)
->    //, class
-> 
+>    //: class; 変数と関数を内蔵するクラス
+
+</details> 
 
 
 ## ExMM_D_04: geom_point
-平面座標における座標点 $A(X, Y)$ を考えます。
-
+平面座標における座標点 $A(X, Y)$ を考えます。  
 原点から座標点 $A$ までの距離と，原点から見た座標点の方位角を計算して，表示して下さい。
 
-
-### Input lines
-#### 注: プログラム実行後に, 張り付けて下さい。
-
-``` python
+### Input lines: paste lines after starting program
 X Y
 
 [Case a]
-3 4 
-
+``` python
+3 4
+``` 
 [Case b]
+```python
 -3 -4
-
+```
 [Case c]
+```python
 -3 -4
-
+```
 [Case d]
+```python
 3 -4
-
 ```
 
 <details>
@@ -117,36 +115,32 @@ X Y
 
 
 ## ExMM_D_05: geom_point_list
-平面座標における $N$ 個の座標点 $A_1(X_1, Y_1) ... A_N(X_N, Y_N)$ を考えます。
-
-座標点の個数 $N$ が最初の行で，座標値 $(X, Y)$ が空白で区切られ，後続の行で与えられます。
+平面座標における $N$ 個の座標点 $A_1(X_1, Y_1) ... A_N(X_N, Y_N)$ を考えます。  
 原点からそれぞれの座標点 $A_{1, ..., N}$ までの距離と，原点から見た座標点の方位角を計算し，表示して下さい。
 
-### Input lines
-#### 注: プログラム実行後に, 張り付けて下さい。
-
-``` python
-N
-X1 Y1
-X2 Y2
-...
+### Input lines: paste lines after starting program
+N  
+X1 Y1  
+X2 Y2  
+...  ...  
 XN YN
 
 [Case a]
+``` python
 4
 3 4 
 -3 -4
 -3 -4
 3 -4
-
+```
 [Case b]
+``` python
 5
 8 3
 2 -5
 -4 7
 0 6
 1 -9
-
 ```
 
 <details>

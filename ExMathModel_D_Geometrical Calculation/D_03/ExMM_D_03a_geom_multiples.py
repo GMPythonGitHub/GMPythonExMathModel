@@ -1,15 +1,19 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_01b_geom_multiples:: %, //
+## ExMM_D_03a_geom_multiples:: %, //
 
 A, B = map(int, input().split())
 
 AquoB = A // B
 AsupB = A % B
 
-ABle = A // B * B
-ABlt = (A - 1) // B * B
-ABge = (A + B - 1) // B * B
-ABgt = (A + B) // B * B
+ABle = AquoB * B
+ABlt = AquoB * B
+if AsupB == 0:
+    ABlt -= B
+ABge = AquoB * B
+if AsupB > 0:
+    ABge += B
+ABgt = AquoB * B + B
 
 print(f'{ABle = }, {ABlt = }, {ABge = }, {ABgt = }')
 

@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_00c_geom_arithmetics:: +, -, *, /, function
+## ExMM_D_00c_geom_arithmetics:: +, -, *, /: class
 
 A, B = map(int, input().split())
 
