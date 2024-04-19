@@ -28,7 +28,7 @@ X Y
 <details>
 <summary>Sample programs: Click here !</summary>
 
-> a. [ExMM_E_00a_geom_point](../ExMathModel_E_Geometrical_Calculation/ExMM_E_00a_geom_point.py)
+> a. [ExMM_E_00a_geom_point](../ExMathModel_E_Geometrical_Calculation/E_00/ExMM_E_00a_geom_point.py)
 >    sqrt(), atan2()
 >
 > b. [ExMM_E_00b_geom_point](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_04b_geom_point.py)
