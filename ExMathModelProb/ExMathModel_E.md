@@ -31,10 +31,10 @@ X Y
 > a. [ExMM_E_00a_geom_point](../ExMathModel_E_Geometrical_Calculation/E_00/ExMM_E_00a_geom_point.py)
 >    sqrt(), atan2()
 >
-> b. [ExMM_E_00b_geom_point](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_04b_geom_point.py)
+> b. [ExMM_E_00b_geom_point](../ExMathModel_E_Geometrical_Calculation/E_00/ExMM_E_00b_geom_point.py)
 >    sqrt(), atan2(), function
 > 
-> c. [ExMM_E_00c_geom_point](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_04c_geom_point.py)
+> c. [ExMM_E_00c_geom_point](../ExMathModel_E_Geometrical_Calculation/E_00/ExMM_E_00c_geom_point.py)
 >    sqrt(), atan2(), class
 
 
