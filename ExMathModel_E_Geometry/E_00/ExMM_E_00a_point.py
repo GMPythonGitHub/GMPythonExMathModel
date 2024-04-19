@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_04a_geom_point:: sqrt(), atan2()
+## ExMM_E_00a_point:: sqrt(), atan2()
 
 import math
 

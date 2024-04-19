@@ -1,18 +1,14 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_05c_geom_point_list:: sqrt(), atan2(), list, list comprehension
+## ExMM_E_01b_point_list:: sqrt(), atan2(), list, list comprehension
 
 import math
 
 N = int(input())
 XY = [tuple(map(int, input().split())) for _ in range(N)]
 
-def point(xx, yy):
-    return (
-        math.sqrt(xx*xx + yy*yy),
-        math.degrees(math.atan2(yy, xx)) )
-
-for XYi in XY:
-    dst, dir = point(*XYi)
+for xx, yy in XY:
+    dst = math.sqrt(xx*xx + yy*yy)
+    dir = math.degrees(math.atan2(yy, xx))
     print(f'{dst = }, {dir = }')
 
 # =========================================================
