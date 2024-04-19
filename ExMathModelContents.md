@@ -1,13 +1,34 @@
 # **GMPython Exercises for Mathematical Model**
-## Pythonに馴染のない初心者向のために一連の演習問題を用意します。数理モデルに関して必要なプログラミングの知識を身につけてもらうのが目的です。
+Pythonに馴染のない初心者向のために一連の演習問題を用意します。  
+数学・解析学を基軸とする，数理モデルのプログラミングに必要なPythonを用いる手法や知識を身につけてもらうのが目的です。
 
-## [Exercises A: Input and Output](./ExMathModelProb/ExMathModel_A.md)
-    数値や文字列データの入出力に関する演習問題
+## 1. 演習課題の構成
+現在準備ができていて，公開できるカテゴリーは以下のようです。順次追加いたします。
 
-## [Exercises B: List Structure](./ExMathModelProb/ExMathModel_B.md)
-#### リスト構造 list, tuple, set に関する演習問題
+### [Exercises A: Input and Output](./ExMathModelProb/ExMathModel_A.md)
+数値や文字列データの入出力に関する演習問題
 
-## [Exercises D: List Structure](./ExMathModelProb/ExMathModel_D.md)
-#### 幾何学計算 に関する演習問題
+### [Exercises B: List Structure](./ExMathModelProb/ExMathModel_B.md)
+リスト構造 list, tuple, set に関する演習問題
+
+### [Exercises D: List Structure](./ExMathModelProb/ExMathModel_D.md)
+幾何学計算 に関する演習問題
+
+### 2. 演習課題の進め方
+各カテゴリーでは，基本的な演習課題から応用的なも演習課題まで，複数の問題を列挙しています。  
+
+#### 問題の説明
+最初に，問題を解説しています。何を対象としているのか，どのように処理することが求められているのか理解して下さい。
+
+`Input lines` では，演習課題を解くために必要な情報を複数の文字列で与えています。
+プログラムを汎用性をチェックできるように，複数のケースを準備しています。
+これらすべてのケースに対応できるプログラムを作成するする必要があります。
+
+プルダウン `Sample programs` では，複数のプログラムを例示しています。
+プログラムの構成は，関数やクラスを用いずに入力情報を手順道理に処理していく，プログラムのコンパクト性や計算効率を重視していないプログラムから始まっています。
+次第に，リスト内包表記や組み込み関数，独自に用意する関数やクラスを用いることで，有機的なプログラムと計算効率を重視するプログラムが続いています。
+これらのプログラムを所定の文字列を入力すると同じ結果が得られます。
+
+これらの演習問題を解くことを通して，複数のプログラムで用いられているプログラミングの表記法やアルゴリズムを理解するように心掛けて下さい。
 
 
