@@ -1,6 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_02a_
-# divisors::
+## ExMM_D_01b_divisors::
 
 N = int(input())
 
@@ -34,6 +33,7 @@ N
 113
 
 [Case d]
-3628800
+40320
+
 '''
 

@@ -5,11 +5,14 @@ Pythonに馴染のない初心者向のために一連の演習問題を用意�
 ## 1. 構成
 現在準備ができていて，公開できるカテゴリーは以下のようです。順次追加いたします。
 
-### [Exercises A: Input and Output](ExMathModel_A_Input_and_Output.md)
+### Exercises A: Input and Output (under construction)
 `数値データや文字列データ` の入出力に関する演習問題
 
-### [Exercises B: List Structure](ExMathModel_B_List_Structure.md)
+### Exercises B: List Structure (under construction)
 `リスト構造 list, tuple, set` に関する演習問題
+
+### Exercises C: String (under construction)
+`文字列` に関する演習問題
 
 ### [Exercises D: Arithmetics](ExMathModel_D_Arithmetics.md)
 `四則演算` に関する演習問題

@@ -3,16 +3,17 @@
 
 N = int(input())
 
-prmfac_list = []  # list of prime factors
+A = []  # list of prime factors
 nn, prmfac = N, 2
 while nn > 1:
     if nn % prmfac == 0:
-        prmfac_list.append(prmfac)
+        A.append(prmfac)
         nn //= prmfac
     else:
         prmfac += 1
 
-print(f'{prmfac_list = }')
+print(f'{len(A) = }')
+print(f'{A = }')
 
 # =========================================================
 # *** list of input lines ***

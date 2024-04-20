@@ -1,32 +1,31 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_01a_divisors::
+## ExMM_E_02a_vector:: sqrt(), atan2()
 
-N = int(input())
+import math
 
-A = []
-for Ni in range(1, N+1):
-    if N % Ni == 0:
-        A.append(Ni)
+X, Y = map(int, input().split())
 
-print(len(A))
-print(*A, sep=', ')
+dst = math.sqrt(X*X + Y*Y)
+dir = math.degrees(math.atan2(Y, X))
+
+print(f'{dst = }, {dir = }')
 
 # =========================================================
 # *** list of input lines ***
 '''
-N
+X Y
 
 [Case a]
-360 
+3 4 
 
 [Case b]
-1
+-4 3
 
 [Case c]
-113
+-3 -4
 
 [Case d]
-40320
+4 -3
 
 '''
 

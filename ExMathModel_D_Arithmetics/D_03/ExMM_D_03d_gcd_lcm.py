@@ -2,7 +2,6 @@
 ## ExMM_D_03c_gcd_lcm:: gcd(), lcm()
 
 import math
-math.factorial()
 
 A, B = map(int, input().split())
 

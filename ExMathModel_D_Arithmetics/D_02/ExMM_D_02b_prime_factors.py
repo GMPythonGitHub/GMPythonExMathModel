@@ -14,9 +14,10 @@ def prime_factors(nn):
             prmfac += 1
     return prmfaclst
 
-prmfac_list = prime_factors(N)
+A = prime_factors(N)
 
-print(f'{prmfac_list = }')
+print(f'{len(A) = }')
+print(f'{A = }')
 
 # =========================================================
 # *** list of input lines ***
