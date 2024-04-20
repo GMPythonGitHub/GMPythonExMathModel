@@ -28,13 +28,13 @@ X Y
 <details>
 <summary>Sample programs: Click here !</summary>
 
-> a. [ExMM_E_00a_point](../ExMathModel_E_Geometry/E_00/ExMM_E_00a_point.py)
+> a. [ExMM_E_00a_point](../ExMathModel_E_Geometry/E_00_point/ExMM_E_00a_point.py)
 >    : sqrt(), atan2(); 手順通りの計算
 >
-> b. [ExMM_E_00b_point](../ExMathModel_E_Geometry/E_00/ExMM_E_00b_point.py)
+> b. [ExMM_E_00b_point](../ExMathModel_E_Geometry/E_00_point/ExMM_E_00b_point.py)
 >    : sqrt(), atan2(), function; 関数を用いた計算
 > 
-> c. [ExMM_E_00c_point](../ExMathModel_E_Geometry/E_00/ExMM_E_00c_point.py)
+> c. [ExMM_E_00c_point](../ExMathModel_E_Geometry/E_00_point/ExMM_E_00c_point.py)
 >    : sqrt(), atan2(), class; クラスを用いた計算
 
 
@@ -73,16 +73,16 @@ XN YN
 <details>
 <summary>Sample programs: Click here !</summary>
 
-> a. [ExMM_E_01a_point_list](../ExMathModel_E_Geometry/E_01/ExMM_E_01a_point_list.py)
+> a. [ExMM_E_01a_point_list](../ExMathModel_E_Geometry/E_01_point_list/ExMM_E_01a_point_list.py)
 >    : sqrt(), atan2(): for-loop を用いた逐次計算 
 >
-> a. [ExMM_E_01b_point_list](../ExMathModel_E_Geometry/E_01/ExMM_E_01b_point_list.py)
+> a. [ExMM_E_01b_point_list](../ExMathModel_E_Geometry/E_01_point_list/ExMM_E_01b_point_list.py)
 >    : sqrt(), atan2(), list, list comprehension: リストへの入力値の格納と逐次計算
 >
-> a. [ExMM_E_01c_point_list](../ExMathModel_E_Geometry/E_01/ExMM_E_01c_point_list.py)
+> a. [ExMM_E_01c_point_list](../ExMathModel_E_Geometry/E_01_point_list/ExMM_E_01c_point_list.py)
 >    : sqrt(), atan2(), list, list comprehension, function: リストへの入力値の格納と関数を用いた逐次計算
 >
-> a. [ExMM_E_01d_point_list](../ExMathModel_E_Geometry/E_01/ExMM_E_01d_point_list.py)
+> a. [ExMM_E_01d_point_list](../ExMathModel_E_Geometry/E_01_point_list/ExMM_E_01d_point_list.py)
 >    : sqrt(), atan2(), list, list comprehension, class: クラスのリストへの入力値の格納と逐次計算
 >
 

@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_00c_geom_arithmetics:: +, -, *, /: class
+## ExMM_D_00c_arithmetics:: +, -, *, /: class
 
 A, B = map(int, input().split())
 
@@ -17,6 +17,8 @@ class Arithmetics():
         return self.a / self.b
     def calc(self):
         return self.add(), self.sub(), self.mul(), self.div()
+
+
 
 AB = Arithmetics(A, B)
 add, sub, mul , div = AB.calc()

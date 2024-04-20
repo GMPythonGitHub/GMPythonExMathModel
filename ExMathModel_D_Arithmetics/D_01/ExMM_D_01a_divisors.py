@@ -1,5 +1,6 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_01a_geom_divisors::
+## ExMM_D_01a_
+# divisors::
 
 N = int(input())
 

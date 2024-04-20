@@ -1,13 +1,15 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_00c_geom_arithmetics:: +, -, *, /: function
+## ExMM_D_03a_gcd_lcm::
 
 A, B = map(int, input().split())
 
-def arithmetics(A, B):
-    return A + B, A - B, A * B, A / B
+for i in range(min(A,B), 0, -1):
+    if A % i == 0 and B % i == 0:
+        gcd = i
+        break
+lcm = A * B // gcd
 
-add, sub, mul , div = arithmetics(A, B)
-print(f'{add = }, {sub = }, {mul = }, {div = }')
+print(f'{gcd = }, {lcm = }')
 
 # =========================================================
 # *** list of input lines ***
@@ -15,16 +17,16 @@ print(f'{add = }, {sub = }, {mul = }, {div = }')
 A B
 
 [Case a]
-20 10 
+12 18 
 
 [Case b]
-20 -40
+36 12
 
 [Case c]
--80 40
+25 36
 
 [Case d]
--80 -160
+1 12
 
 '''
 

@@ -1,13 +1,13 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_02a_geom_gcm_lcm::
+## ExMM_D_03c_gcd_lcm:: gcd(), lcm()
+
+import math
+math.factorial()
 
 A, B = map(int, input().split())
 
-for i in range(min(A,B), 0, -1):
-    if A % i == 0 and B % i == 0:
-        gcd = i
-        break
-lcm = A * B // gcd
+gcd = math.gcd(A, B)
+lcm = math.lcm(A, B)
 
 print(f'{gcd = }, {lcm = }')
 
