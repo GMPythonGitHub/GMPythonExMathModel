@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_E_01b_point_list:: sqrt(), list comprehension
+## ExMM_E_01c_point_list:: sqrt(), list comprehension, list
 
 import math
 
@@ -11,16 +11,23 @@ def distance(aa, bb):
     aax, aay = aa; bbx, bby = bb
     return math.sqrt((aax-bbx)**2 + (aay-bby)**2)
 
-distmax, distmin, distave = 0, float('inf'), 0
+dist_lst = []
+distave = 0
 for i in range(0,N-1):
     for j in range(i+1,N):
         dist = distance(XY[i], XY[j])
-        distmax = max(distmax, dist)
-        distmin = min(distmin, dist)
+        dist_lst.append([dist, (i+1,j+1)])
         distave += dist
+
+print(f'{dist_lst = }')
+dist_lst.sort()
+print(f'{dist_lst = }')
 distave /= (N * (N-1) / 2)
 
-print(f'{distmax = }, {distmin = }')
+distmax, ijmax = dist_lst[-1]
+distmin, ijmin = dist_lst[0]
+print(f'{distmax = }, {ijmax = }')
+print(f'{distmin = }, {ijmin = }')
 print(f'{distave = }')
 
 # =========================================================
@@ -37,7 +44,7 @@ XN YN
 5 4 
 -4 3
 -3 -4
-4 -5
+4 -6
 
 [Case b]
 5

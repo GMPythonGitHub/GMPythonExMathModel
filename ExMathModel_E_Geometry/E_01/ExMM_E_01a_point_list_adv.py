@@ -10,17 +10,24 @@ for _ in range(N):
     XY.append(tuple(map(int, input().split())))
 
 distmax, distmin, distave = 0, float('inf'), 0
+ijmax, ijmin = (0,0), (0,0)
 for i in range(0,N-1):
     xxi, yyi = XY[i]
     for j in range(i+1,N):
         xxj, yyj = XY[j]
         dist = math.sqrt((xxi-xxj)**2 + (yyi-yyj)**2)
-        distmax = max(distmax, dist)
-        distmin = min(distmin, dist)
+        print(dist, i+1, j+1)
+        if dist > distmax:
+            distmax = dist
+            ijmax = (i+1,j+1)
+        if dist < distmin:
+            distmin = dist
+            ijmin = (i+1,j+1)
         distave += dist
 distave /= (N * (N-1) / 2)
 
-print(f'{distmax = }, {distmin = }')
+print(f'{distmax = }, {ijmax = }')
+print(f'{distmin = }, {ijmin = }')
 print(f'{distave = }')
 
 # =========================================================

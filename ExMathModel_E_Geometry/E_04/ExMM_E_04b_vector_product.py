@@ -1,11 +1,17 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_E_03a_vector_product::
+## ExMM_E_04b_vector_product:: function
 
 Ax, Ay = map(int, input().split())
 Bx, By = map(int, input().split())
 
-dot = Ax * Bx + Ay * By
-cross = Ax * By - Ay * Bx
+def prod_dot(aax, aay, bbx, bby):
+    return aax * bbx + aay * bby
+
+def prod_cross(aax, aay, bbx, bby):
+    return aax * bby - aay * bbx
+
+dot = prod_dot(Ax, Ay, Bx, By)
+cross = prod_cross(Ax, Ay, Bx, By)
 
 print(f'{dot = }, {cross = }')
 

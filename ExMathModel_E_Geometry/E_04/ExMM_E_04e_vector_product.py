@@ -1,22 +1,39 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_E_03e_vector_product:: tuple, class
+## ExMM_E_04e_vector_product:: tuple, class
 
 import math
 
 A = tuple(map(int, input().split()))
 B = tuple(map(int, input().split()))
 
+
 class Vector():
-    def __init__(self, xx, yy):
+    def __init__(self, xx=0, yy=0):
+        self.set_xxyy(xx, yy)
+
+    def set_xxyy(self, xx, yy):
         self.xx, self.yy = xx, yy
 
-    def distance(self):
-        return math.sqrt(self.xx*self.xx + self.yy*self.yy)
-    def direction(self):
-        return math.degrees(math.atan2(self.xx, self.yy))
-    def prop(self):
-        return self.distance(), self.direction()
+    def set_rrth(self, rr, th):
+        self.rr, self.th = rr, math.radians(th)
 
+    def xx(self):
+        return self.xx
+
+    def yy(self):
+        return self.yy
+
+    def xxyy(self):
+        return self.xx, self.yy
+
+    def rr(self):
+        return math.sqrt(self.xx ** 2 + self.yy ** 2)
+
+    def th(self):
+        return math.degrees(math.atan2(self.xx, self.yy))
+
+    def rrth(self):
+        return self.rr(), self.th()
     def prod_dot(self, vect):
         return self.xx * vect.xx + self.yy * vect.yy
     def prod_cross(self, vect):

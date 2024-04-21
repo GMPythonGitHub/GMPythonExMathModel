@@ -1,31 +1,31 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_E_02a_vector:: sqrt(), atan2()
+## ExMM_E_03a_vector:: sqrt(), atan2()
 
 import math
 
-X, Y = map(int, input().split())
+L, D = map(int, input().split())
 
-rr = math.sqrt(X**2 + Y**2)
-th = math.degrees(math.atan2(Y, X))
+xx = L * math.cos(math.radians(D))
+yy = L * math.sin(math.radians(D))
 
-print(f'{rr = }, {th = }')
+print(f'{xx = }, {yy = }')
 
 # =========================================================
 # *** list of input lines ***
 '''
-X Y
+L D
 
 [Case a]
-3 4 
+4 30 
 
 [Case b]
--4 3
+4 150
 
 [Case c]
--3 -4
+12 -120
 
 [Case d]
-4 -3
+12 -45
 
 '''
 

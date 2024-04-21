@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_E_03c_vector_product:: tuple, function
+## ExMM_E_04c_vector_product:: tuple, function
 
 A = tuple(map(int, input().split()))
 B = tuple(map(int, input().split()))

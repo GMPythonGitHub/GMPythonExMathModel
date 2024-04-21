@@ -5,14 +5,14 @@ import math
 
 X, Y = map(int, input().split())
 
-def vector(xx, yy):
+def vector_xxyy(xx, yy):
     return (
-        math.sqrt(xx*xx + yy*yy),
+        math.sqrt(xx**2 + yy**2),
         math.degrees(math.atan2(xx, yy)) )
 
-dst, dir = vector(X, Y)
+rr, th = vector_xxyy(X, Y)
 
-print(f'{dst = }, {dir = }')
+print(f'{rr = }, {th = }')
 
 # =========================================================
 # *** list of input lines ***

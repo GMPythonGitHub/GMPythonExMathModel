@@ -1,31 +1,36 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_E_00a_point:: sqrt(), atan2()
+## ExMM_E_00a_point:: sqrt()
 
 import math
 
-X, Y = map(int, input().split())
+Ax, Ay = map(int, input().split())
+Bx, By = map(int, input().split())
 
-dst = math.sqrt(X*X + Y*Y)
-dir = math.degrees(math.atan2(Y, X))
+dist = math.sqrt((Ax-Bx)**2 + (Ay-By)**2)
 
-print(f'{dst = }, {dir = }')
+print(f'{dist = }')
 
 # =========================================================
 # *** list of input lines ***
 '''
-X Y
+Ax Ay
+Bx By
 
 [Case a]
-3 4 
+0 0
+4 3 
 
 [Case b]
--4 3
+4 3
+7 7
 
 [Case c]
--3 -4
+7 7
+3 4
 
 [Case d]
-4 -3
+3 4
+0 0
 
 '''
 

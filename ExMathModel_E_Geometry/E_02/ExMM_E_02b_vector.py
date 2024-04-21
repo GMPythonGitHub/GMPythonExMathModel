@@ -5,16 +5,15 @@ import math
 
 X, Y = map(int, input().split())
 
-def distance(xx, yy):
-    return math.sqrt(xx*xx + yy*yy)
-
-def direction( xx, yy):
+def dist(xx, yy):
+    return math.sqrt(xx**2 + yy**2)
+def dirc( xx, yy):
     return math.degrees(math.atan2(xx, yy))
 
-dst = distance(X, Y)
-dir = direction(X, Y)
+rr = dist(X, Y)
+th = dirc(X, Y)
 
-print(f'{dst = }, {dir = }')
+print(f'{rr = }, {th = }')
 
 # =========================================================
 # *** list of input lines ***

@@ -3,32 +3,38 @@
 
 import math
 
-X, Y = map(int, input().split())
+A = tuple(map(int, input().split()))
+B = tuple(map(int, input().split()))
 
-def point(xx, yy):
-    return (
-        math.sqrt(xx*xx + yy*yy),
-        math.degrees(math.atan2(yy, xx)) )
+def distance(aa, bb):
+    aax, aay = aa; bbx, bby = bb
+    return math.sqrt((aax-bbx)**2 + (aay-bby)**2)
 
-dst, dir = point(X, Y)
-print(f'{dst = }, {dir = }')
+dist = distance(A, B)
+
+print(f'{dist = }')
 
 # =========================================================
 # *** list of input lines ***
 '''
-X Y
+Ax Ay
+Bx By
 
 [Case a]
-3 4 
+0 0
+4 3 
 
 [Case b]
--4 3
+4 3
+7 7
 
 [Case c]
--3 -4
+7 7
+3 4
 
 [Case d]
-4 -3
+3 4
+0 0
 
 '''
 
