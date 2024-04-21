@@ -1,12 +1,12 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_E_03a_vector:: sqrt(), atan2()
+## ExMM_E_03a_vector_rrth:: sqrt(), atan2()
 
 import math
 
-L, D = map(int, input().split())
+R, T = map(int, input().split())
 
-xx = L * math.cos(math.radians(D))
-yy = L * math.sin(math.radians(D))
+xx = R * math.cos(math.radians(T))
+yy = R * math.sin(math.radians(T))
 
 print(f'{xx = }, {yy = }')
 

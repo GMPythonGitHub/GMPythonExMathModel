@@ -1,9 +1,9 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_E_03d_vector:: sqrt(), atan2(), class
+## ExMM_E_03d_vector_rrth:: sqrt(), atan2(), class
 
 import math
 
-L, D = map(int, input().split())
+R, T = map(int, input().split())
 
 class Vector():
     def __init__(self, xx=0, yy=0):
@@ -30,7 +30,7 @@ class Vector():
         return self.rr(), self.th()
 
 vector = Vector()
-vector.set_rrth(L, D)
+vector.set_rrth(R, T)
 xx, yy = vector.xxyy()
 
 print(f'{xx = }, {yy = }')

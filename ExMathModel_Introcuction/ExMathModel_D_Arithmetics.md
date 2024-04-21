@@ -24,7 +24,7 @@ A B
 <details>
 <summary>Sample programs: Click here !</summary>
 
-> a. [ExMM_D_00a_geom_arithmetics](../ExMathModel_D_Arithmetics/D_00/ExMM_D_00a_geom_arithmetics.py)
+> a. [ExMM_D_00a_geom_arithmetics](../ExMathModel_D_Arithmetics/D_00/ExMM_D_00a_eom_arithmetics.py)
 >    //  +, - , *, /
 > 
 > b. [ExMM_D_00b_geom_arithmetics](https://github.com/GMPythonGitHub/GMPythonExMathModel/blob/main/ExMathModel_D_Geometrical%20Calculation/ExMM_D_00b_geom_arithmetics.py)
