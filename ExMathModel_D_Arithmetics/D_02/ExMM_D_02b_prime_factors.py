@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_02b_prime_factors:: function
+## ExMM_D_02b_prime_factors:: %, while-loop, function
 
 N = int(input())
 

@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_03c_gcd_lcm:: mutual division method, function
+## ExMM_D_03c_gcd_lcm:: %, while-loop, mutual division method, function
 
 A, B = map(int, input().split())
 

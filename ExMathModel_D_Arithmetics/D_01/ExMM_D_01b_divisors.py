@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_01b_divisors::
+## ExMM_D_01b_divisors:: %, list
 
 N = int(input())
 

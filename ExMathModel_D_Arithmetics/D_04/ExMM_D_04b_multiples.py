@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_04b_geom_multiples:: %, //
+## ExMM_D_04b_multiples:: //
 
 A, B = map(int, input().split())
 

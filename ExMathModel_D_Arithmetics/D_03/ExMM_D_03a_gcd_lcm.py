@@ -1,5 +1,5 @@
 ## GMPython Exercises for Mathematical Modeling:: coded by Kinya MIURA
-## ExMM_D_03a_gcd_lcm::
+## ExMM_D_03a_gcd_lcm:: %, for-loop
 
 A, B = map(int, input().split())
 

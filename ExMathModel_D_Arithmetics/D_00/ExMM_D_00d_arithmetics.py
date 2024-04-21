@@ -18,8 +18,6 @@ class Arithmetics():
     def calc(self):
         return self.add(), self.sub(), self.mul(), self.div()
 
-
-
 AB = Arithmetics(A, B)
 add, sub, mul , div = AB.calc()
 print(f'{add = }, {sub = }, {mul = }, {div = }')
