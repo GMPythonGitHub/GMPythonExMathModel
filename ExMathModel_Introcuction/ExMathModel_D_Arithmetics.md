@@ -117,7 +117,7 @@ N
 
 ## ExMM_D_03: gcd_lcm
 正の整数 $A, B$ を考えます。  
-$A$ と $B$ の最大公約数（gcd）と最小公約数（lcm）を計算して表示しなさい。
+$A$ と $B$ の最大公約数（gcd）と最小公倍数（lcm）を計算して表示しなさい。
 
 ### Input lines: paste lines after starting program
 A B
